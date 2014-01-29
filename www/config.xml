@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backButtonPosition="OVERLAY"
+	backButtonUseIcon="true"
+	showSmallBackButton="false"
+	galleryTitle="VELUX Bathroom Gallery"
+	screenMode="LARGE"
+	galleryTitlePosition="TOP"
+	galleryTitleHAlign="RIGHT"
+	showAutoPlayButton="true"
+	showNavButtons="true"
+
+>
+  <image imageURL="img/bathroom_6.jpg"
+	thumbURL="thumbs/bathroom_6.jpg"
+	linkURL="img/bathroom_6.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bathroom_6.png">
+    <title><![CDATA[bathroom_6]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bathroom_7.jpg"
+	thumbURL="thumbs/bathroom_7.jpg"
+	linkURL="img/bathroom_7.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bathroom_7.png">
+    <title><![CDATA[bathroom_7]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bathroom_8.jpg"
+	thumbURL="thumbs/bathroom_8.jpg"
+	linkURL="img/bathroom_8.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bathroom_8.png">
+    <title><![CDATA[bathroom_8]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bathroom_9.jpg"
+	thumbURL="thumbs/bathroom_9.jpg"
+	linkURL="img/bathroom_9.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bathroom_9.png">
+    <title><![CDATA[bathroom_9]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bathroom_10.jpg"
+	thumbURL="thumbs/bathroom_10.jpg"
+	linkURL="img/bathroom_10.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bathroom_10.png">
+    <title><![CDATA[bathroom_10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bedroom_1.jpg"
+	thumbURL="thumbs/bedroom_1.jpg"
+	linkURL="img/bedroom_1.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bedroom_1.png">
+    <title><![CDATA[bedroom_1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bedroom_2.jpg"
+	thumbURL="thumbs/bedroom_2.jpg"
+	linkURL="img/bedroom_2.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bedroom_2.png">
+    <title><![CDATA[bedroom_2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bedroom_3.jpg"
+	thumbURL="thumbs/bedroom_3.jpg"
+	linkURL="img/bedroom_3.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bedroom_3.png">
+    <title><![CDATA[bedroom_3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bedroom_4.jpg"
+	thumbURL="thumbs/bedroom_4.jpg"
+	linkURL="img/bedroom_4.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bedroom_4.png">
+    <title><![CDATA[bedroom_4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="img/bedroom_5.jpg"
+	thumbURL="thumbs/bedroom_5.jpg"
+	linkURL="img/bedroom_5.jpg"
+	linkTarget="_blank"
+	sourcePath="img/bedroom_5.png">
+    <title><![CDATA[bedroom_5]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

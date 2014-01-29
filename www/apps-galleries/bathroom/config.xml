@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backgroundColor="rgba(0,0,0,1)"
+	captionPosition="NONE"
+	showAutoPlayButton="true"
+	buttonBarPosition="TOP"
+	galleryTitlePosition="TOP"
+	topAreaHeight="45"
+	showOpenButton="false"
+	buttonBarBackColor="rgba(0,0,0,0)"
+
+>
+  <image imageURL="images/Bathroom_01.jpg"
+	thumbURL="thumbs/Bathroom_01.jpg"
+	linkURL="images/Bathroom_01.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_01.jpg">
+    <title><![CDATA[Bathroom_01]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_02.jpg"
+	thumbURL="thumbs/Bathroom_02.jpg"
+	linkURL="images/Bathroom_02.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_02.jpg">
+    <title><![CDATA[Bathroom_02]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_03.jpg"
+	thumbURL="thumbs/Bathroom_03.jpg"
+	linkURL="images/Bathroom_03.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_03.jpg">
+    <title><![CDATA[Bathroom_03]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_04.jpg"
+	thumbURL="thumbs/Bathroom_04.jpg"
+	linkURL="images/Bathroom_04.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_04.jpg">
+    <title><![CDATA[Bathroom_04]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_05.jpg"
+	thumbURL="thumbs/Bathroom_05.jpg"
+	linkURL="images/Bathroom_05.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_05.jpg">
+    <title><![CDATA[Bathroom_05]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_06.jpg"
+	thumbURL="thumbs/Bathroom_06.jpg"
+	linkURL="images/Bathroom_06.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_06.jpg">
+    <title><![CDATA[Bathroom_06]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_07.jpg"
+	thumbURL="thumbs/Bathroom_07.jpg"
+	linkURL="images/Bathroom_07.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_07.jpg">
+    <title><![CDATA[Bathroom_07]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_08.jpg"
+	thumbURL="thumbs/Bathroom_08.jpg"
+	linkURL="images/Bathroom_08.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_08.jpg">
+    <title><![CDATA[Bathroom_08]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_09.jpg"
+	thumbURL="thumbs/Bathroom_09.jpg"
+	linkURL="images/Bathroom_09.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_09.jpg">
+    <title><![CDATA[Bathroom_09]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_10.jpg"
+	thumbURL="thumbs/Bathroom_10.jpg"
+	linkURL="images/Bathroom_10.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_10.jpg">
+    <title><![CDATA[Bathroom_10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_11.jpg"
+	thumbURL="thumbs/Bathroom_11.jpg"
+	linkURL="images/Bathroom_11.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_11.jpg">
+    <title><![CDATA[Bathroom_11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_12.jpg"
+	thumbURL="thumbs/Bathroom_12.jpg"
+	linkURL="images/Bathroom_12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_12.jpg">
+    <title><![CDATA[Bathroom_12]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_13.jpg"
+	thumbURL="thumbs/Bathroom_13.jpg"
+	linkURL="images/Bathroom_13.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_13.jpg">
+    <title><![CDATA[Bathroom_13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_14.jpg"
+	thumbURL="thumbs/Bathroom_14.jpg"
+	linkURL="images/Bathroom_14.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_14.jpg">
+    <title><![CDATA[Bathroom_14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_15.jpg"
+	thumbURL="thumbs/Bathroom_15.jpg"
+	linkURL="images/Bathroom_15.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_15.jpg">
+    <title><![CDATA[Bathroom_15]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_16.jpg"
+	thumbURL="thumbs/Bathroom_16.jpg"
+	linkURL="images/Bathroom_16.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_16.jpg">
+    <title><![CDATA[Bathroom_16]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_17.jpg"
+	thumbURL="thumbs/Bathroom_17.jpg"
+	linkURL="images/Bathroom_17.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_17.jpg">
+    <title><![CDATA[Bathroom_17]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_18.jpg"
+	thumbURL="thumbs/Bathroom_18.jpg"
+	linkURL="images/Bathroom_18.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_18.jpg">
+    <title><![CDATA[Bathroom_18]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_19.jpg"
+	thumbURL="thumbs/Bathroom_19.jpg"
+	linkURL="images/Bathroom_19.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_19.jpg">
+    <title><![CDATA[Bathroom_19]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_20.jpg"
+	thumbURL="thumbs/Bathroom_20.jpg"
+	linkURL="images/Bathroom_20.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_20.jpg">
+    <title><![CDATA[Bathroom_20]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_21.jpg"
+	thumbURL="thumbs/Bathroom_21.jpg"
+	linkURL="images/Bathroom_21.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_21.jpg">
+    <title><![CDATA[Bathroom_21]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_22.jpg"
+	thumbURL="thumbs/Bathroom_22.jpg"
+	linkURL="images/Bathroom_22.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_22.jpg">
+    <title><![CDATA[Bathroom_22]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_23.jpg"
+	thumbURL="thumbs/Bathroom_23.jpg"
+	linkURL="images/Bathroom_23.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_23.jpg">
+    <title><![CDATA[Bathroom_23]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_24.jpg"
+	thumbURL="thumbs/Bathroom_24.jpg"
+	linkURL="images/Bathroom_24.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_24.jpg">
+    <title><![CDATA[Bathroom_24]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_25.jpg"
+	thumbURL="thumbs/Bathroom_25.jpg"
+	linkURL="images/Bathroom_25.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_25.jpg">
+    <title><![CDATA[Bathroom_25]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_26.jpg"
+	thumbURL="thumbs/Bathroom_26.jpg"
+	linkURL="images/Bathroom_26.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_26.jpg">
+    <title><![CDATA[Bathroom_26]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_27.jpg"
+	thumbURL="thumbs/Bathroom_27.jpg"
+	linkURL="images/Bathroom_27.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_27.jpg">
+    <title><![CDATA[Bathroom_27]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_28.jpg"
+	thumbURL="thumbs/Bathroom_28.jpg"
+	linkURL="images/Bathroom_28.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_28.jpg">
+    <title><![CDATA[Bathroom_28]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_29.jpg"
+	thumbURL="thumbs/Bathroom_29.jpg"
+	linkURL="images/Bathroom_29.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_29.jpg">
+    <title><![CDATA[Bathroom_29]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Bathroom_30.jpg"
+	thumbURL="thumbs/Bathroom_30.jpg"
+	linkURL="images/Bathroom_30.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Bathroom/Bathroom_30.jpg">
+    <title><![CDATA[Bathroom_30]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

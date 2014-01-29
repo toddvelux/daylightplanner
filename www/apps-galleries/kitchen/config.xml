@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backgroundColor="rgba(0,0,0,1)"
+	captionPosition="NONE"
+	showAutoPlayButton="true"
+	buttonBarPosition="TOP"
+	galleryTitlePosition="TOP"
+	topAreaHeight="45"
+	showOpenButton="false"
+	buttonBarBackColor="rgba(0,0,0,0)"
+
+>
+  <image imageURL="images/Kitchens_01.jpg"
+	thumbURL="thumbs/Kitchens_01.jpg"
+	linkURL="images/Kitchens_01.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_01.jpg">
+    <title><![CDATA[Kitchens_01]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_02.jpg"
+	thumbURL="thumbs/Kitchens_02.jpg"
+	linkURL="images/Kitchens_02.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_02.jpg">
+    <title><![CDATA[Kitchens_02]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_03.jpg"
+	thumbURL="thumbs/Kitchens_03.jpg"
+	linkURL="images/Kitchens_03.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_03.jpg">
+    <title><![CDATA[Kitchens_03]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_04.jpg"
+	thumbURL="thumbs/Kitchens_04.jpg"
+	linkURL="images/Kitchens_04.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_04.jpg">
+    <title><![CDATA[Kitchens_04]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_05.jpg"
+	thumbURL="thumbs/Kitchens_05.jpg"
+	linkURL="images/Kitchens_05.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_05.jpg">
+    <title><![CDATA[Kitchens_05]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_06.jpg"
+	thumbURL="thumbs/Kitchens_06.jpg"
+	linkURL="images/Kitchens_06.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_06.jpg">
+    <title><![CDATA[Kitchens_06]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_07.jpg"
+	thumbURL="thumbs/Kitchens_07.jpg"
+	linkURL="images/Kitchens_07.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_07.jpg">
+    <title><![CDATA[Kitchens_07]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_08.jpg"
+	thumbURL="thumbs/Kitchens_08.jpg"
+	linkURL="images/Kitchens_08.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_08.jpg">
+    <title><![CDATA[Kitchens_08]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_09.jpg"
+	thumbURL="thumbs/Kitchens_09.jpg"
+	linkURL="images/Kitchens_09.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_09.jpg">
+    <title><![CDATA[Kitchens_09]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_10.jpg"
+	thumbURL="thumbs/Kitchens_10.jpg"
+	linkURL="images/Kitchens_10.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_10.jpg">
+    <title><![CDATA[Kitchens_10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_11.jpg"
+	thumbURL="thumbs/Kitchens_11.jpg"
+	linkURL="images/Kitchens_11.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_11.jpg">
+    <title><![CDATA[Kitchens_11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_12.jpg"
+	thumbURL="thumbs/Kitchens_12.jpg"
+	linkURL="images/Kitchens_12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_12.jpg">
+    <title><![CDATA[Kitchens_12]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_13.jpg"
+	thumbURL="thumbs/Kitchens_13.jpg"
+	linkURL="images/Kitchens_13.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_13.jpg">
+    <title><![CDATA[Kitchens_13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_14.jpg"
+	thumbURL="thumbs/Kitchens_14.jpg"
+	linkURL="images/Kitchens_14.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_14.jpg">
+    <title><![CDATA[Kitchens_14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_15.jpg"
+	thumbURL="thumbs/Kitchens_15.jpg"
+	linkURL="images/Kitchens_15.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_15.jpg">
+    <title><![CDATA[Kitchens_15]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_16.jpg"
+	thumbURL="thumbs/Kitchens_16.jpg"
+	linkURL="images/Kitchens_16.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_16.jpg">
+    <title><![CDATA[Kitchens_16]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_17.jpg"
+	thumbURL="thumbs/Kitchens_17.jpg"
+	linkURL="images/Kitchens_17.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_17.jpg">
+    <title><![CDATA[Kitchens_17]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_18.jpg"
+	thumbURL="thumbs/Kitchens_18.jpg"
+	linkURL="images/Kitchens_18.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_18.jpg">
+    <title><![CDATA[Kitchens_18]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_19.jpg"
+	thumbURL="thumbs/Kitchens_19.jpg"
+	linkURL="images/Kitchens_19.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_19.jpg">
+    <title><![CDATA[Kitchens_19]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_20.jpg"
+	thumbURL="thumbs/Kitchens_20.jpg"
+	linkURL="images/Kitchens_20.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_20.jpg">
+    <title><![CDATA[Kitchens_20]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_21.jpg"
+	thumbURL="thumbs/Kitchens_21.jpg"
+	linkURL="images/Kitchens_21.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_21.jpg">
+    <title><![CDATA[Kitchens_21]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_22.jpg"
+	thumbURL="thumbs/Kitchens_22.jpg"
+	linkURL="images/Kitchens_22.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_22.jpg">
+    <title><![CDATA[Kitchens_22]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_23.jpg"
+	thumbURL="thumbs/Kitchens_23.jpg"
+	linkURL="images/Kitchens_23.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_23.jpg">
+    <title><![CDATA[Kitchens_23]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_24.jpg"
+	thumbURL="thumbs/Kitchens_24.jpg"
+	linkURL="images/Kitchens_24.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_24.jpg">
+    <title><![CDATA[Kitchens_24]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_25.jpg"
+	thumbURL="thumbs/Kitchens_25.jpg"
+	linkURL="images/Kitchens_25.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_25.jpg">
+    <title><![CDATA[Kitchens_25]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_26.jpg"
+	thumbURL="thumbs/Kitchens_26.jpg"
+	linkURL="images/Kitchens_26.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_26.jpg">
+    <title><![CDATA[Kitchens_26]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_27.jpg"
+	thumbURL="thumbs/Kitchens_27.jpg"
+	linkURL="images/Kitchens_27.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_27.jpg">
+    <title><![CDATA[Kitchens_27]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_28.jpg"
+	thumbURL="thumbs/Kitchens_28.jpg"
+	linkURL="images/Kitchens_28.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_28.jpg">
+    <title><![CDATA[Kitchens_28]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_29.jpg"
+	thumbURL="thumbs/Kitchens_29.jpg"
+	linkURL="images/Kitchens_29.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_29.jpg">
+    <title><![CDATA[Kitchens_29]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kitchens_30.jpg"
+	thumbURL="thumbs/Kitchens_30.jpg"
+	linkURL="images/Kitchens_30.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Kitchens/Kitchens_30.jpg">
+    <title><![CDATA[Kitchens_30]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

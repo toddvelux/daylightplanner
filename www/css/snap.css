@@ -1,0 +1,777 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+}
+@font-face {
+  font-family: 'LeagueGothicRegular';
+  src: url('../font/LeagueGothic-Regular.otf');
+}
+
+.snap-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.snap-drawers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.snap-drawer {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  width: 265px;
+  height: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: width 0.3s ease;
+     -moz-transition: width 0.3s ease;
+      -ms-transition: width 0.3s ease;
+       -o-transition: width 0.3s ease;
+          transition: width 0.3s ease;
+}
+
+.snap-drawer-left {
+  left: 0;
+  z-index: 1;
+}
+
+.snap-drawer-right {
+  right: 0;
+  z-index: 1;
+}
+
+.snapjs-left .snap-drawer-right,
+.snapjs-right .snap-drawer-left {
+  display: none;
+}
+
+.snapjs-expand-left .snap-drawer-left,
+.snapjs-expand-right .snap-drawer-right {
+  width: 100%;
+}
+
+/* *********************************************************************************************
+
+How to Create CSS3 + jQuery Accordion Menu [Tutorial]
+"How to Create CSS3 + jQuery Accordion Menu" that was specially made for DesignModo by our friend Valeriu Timbuc. 
+
+Links:
+http://vtimbuc.net/
+https://twitter.com/vtimbuc
+http://designmodo.com/futurico
+http://vladimirkudinov.com
+http://rockablethemes.com
+
+********************************************************************************************* */
+
+/* Reset */
+
+.accordion,
+.accordion ul,
+.accordion li,
+.accordion a,
+.accordion span {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.accordion li {
+  list-style: none;
+}
+
+/* Layout & Style */
+
+.accordion li > a {
+  display: block;
+  position: relative;
+  min-width: 110px;
+  padding: 0 10px 0 40px;
+  height: 32px;
+
+  color: #fdfdfd;
+  font: bold 12px/32px Arial, sans-serif;
+  text-decoration: none;
+
+  background: #6c6e74;
+  background: -moz-linear-gradient(top,  #6c6e74 0%, #4b4d51 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6c6e74), color-stop(100%,#4b4d51));
+  background: -webkit-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+  background: -o-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+  background: -ms-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+  background: linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, .1), 0px 1px 0px 0px rgba(0,0,0, .1);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, .1), 0px 1px 0px 0px rgba(0,0,0, .1);
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, .1), 0px 1px 0px 0px rgba(0,0,0, .1);
+}
+
+.accordion > li:hover > a,
+.accordion > li:target > a,
+.accordion > li > a.active {
+  color: #590000;
+  text-shadow: 1px 1px 1px rgba(255,255,255, .2);
+  
+  /*background: url(../img/active.png) repeat-x;*/
+  background: #FF0000;
+  background: -moz-linear-gradient(top,  #FF0000 0%, #B20000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FF0000), color-stop(100%,#B20000));
+  background: -webkit-linear-gradient(top,  #FF0000 0%,#B20000 100%);
+  background: -o-linear-gradient(top,  #FF0000 0%,#B20000 100%);
+  background: -ms-linear-gradient(top,  #FF0000 0%,#B20000 100%);
+  background: linear-gradient(top,  #FF0000 0%,#B20000 100%); 
+}
+
+.accordion li > a span {
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  padding: 0 10px;
+  margin-right: 10px;
+  
+  font: normal bold 12px/18px Arial, sans-serif;
+  background: #404247;
+  
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0, .2), 1px 1px 1px rgba(255,255,255, .1);
+  -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0, .2), 1px 1px 1px rgba(255,255,255, .1);
+  box-shadow: inset 1px 1px 1px rgba(0,0,0, .2), 1px 1px 1px rgba(255,255,255, .1);
+}
+
+.accordion > li:hover > a span,
+.accordion > li:target > a span,
+.accordion > li > a.active span {
+  color: #fff;
+  text-shadow: 0px 1px 0px rgba(0,0,0, .35);
+  background: #3e5706;
+}
+
+/* Images */
+.accordion img {
+  position: absolute;
+  left:18px;
+  top:7px;
+}
+
+.accordion > li > a:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin: 4px 8px;
+
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+.accordion li.files > a:before { background-position: 0px 0px; }
+.accordion li.files:hover > a:before,
+.accordion li.files:target > a:before,
+.accordion li.files > a.active:before { background-position: 0px -24px; }
+
+.accordion li.mail > a:before { background-position: -24px 0px; }
+.accordion li.mail:hover > a:before,
+.accordion li.mail:target > a:before,
+.accordion li.mail > a.active:before { background-position: -24px -24px; }
+
+.accordion li.cloud > a:before { background-position: -48px 0px; }
+.accordion li.cloud:hover > a:before,
+.accordion li.cloud:target > a:before,
+.accordion li.cloud > a.active:before { background-position: -48px -24px; }
+
+.accordion li.sign > a:before { background-position: -72px 0px; }
+.accordion li.sign:hover > a:before,
+.accordion li.sign:target > a:before,
+.accordion li.sign > a.active:before { background-position: -72px -24px; }
+
+/* Sub Menu */
+
+.sub-menu li a {
+  color: #000;
+  text-shadow: 1px 1px 0px rgba(255,255,255, .2);
+
+  background: #e5e5e5;
+  border-bottom: 1px solid #c9c9c9;
+
+}
+
+.sub-menu li:hover a { background: #efefef; }
+
+.sub-menu li:last-child a { border: none; }
+
+.sub-menu li > a span {
+  color: #797979;
+  text-shadow: 1px 1px 0px rgba(255,255,255, .2);
+  background: transparent;
+  border: 1px solid #c9c9c9;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.sub-menu em {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 14px;
+  color: #a6a6a6;
+  font: normal 10px/32px Arial, sans-serif;
+}
+
+/* Functionality */
+
+.accordion li > .sub-menu {
+  display: none;
+}
+
+.accordion li:target > .sub-menu {
+  display: block;
+}
+/* Show "Left" drawer for the "Right" drawer in the demo */
+.snapjs-right .snap-drawer-left {
+  display: block;
+  right: 0;
+  left: auto;
+}
+
+/* Hide the actual "Right" drawer in the demo */
+.snapjs-right .snap-drawer-right {
+  display: none;
+}
+
+/* Show the "Drag" background in the demo */
+#content {
+  background: radial-gradient(circle farthest-corner at center center , #FFF 0%, #ADD9E4 150%) repeat scroll 0 0 #F7FBFC;
+  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFFFFF), color-stop(1, #ADD9E4));
+}
+
+/* Demo toolbar styles */
+#toolbar {
+  background: -moz-linear-gradient(center top , #AA0000, #EE3123) repeat scroll 0 0 transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #AA0000), color-stop(1, #EE3123));
+  border-bottom: 1px solid #111b32;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: 44px;
+}
+
+#toolbar h1 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 44px;
+  left: 44px;
+  width: auto;
+  height: 44px;
+}
+
+#open-left {
+  background: url(../assets/open.png) center center no-repeat;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
+/* Show the red "No Drag" box in the demo */
+#no-drag,
+#do-drag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  color: #FFF;
+  text-align: center;
+}
+#do-drag{
+  background: none;
+}
+
+/* Styles for the social buttons in the demo */
+.demo-social {
+  padding: 0 15px;
+}
+
+/* Show the translucent white "Toggle" boxes in the demo */
+.toggler {
+  width: 80%;
+  background: rgba(255,255,255,0.5);
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Styles for expanding "Search" input in the "Expanding" demo */
+.search {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#search {
+  height: 30px;
+  width: 87%;
+  margin: 7px 7px 0 7px;
+  background: linear-gradient(#414A5A,#4C5464);
+  background: -webkit-linear-gradient(#414A5A,#4C5464);
+  padding-left: 15px;
+  border: 1px solid #222936;
+  -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+          border-radius: 25px;
+  -webkit-box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.5),0 1px 2px -1px rgba(255, 255, 255, 0.4);
+     -moz-box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.5),0 1px 2px -1px rgba(255, 255, 255, 0.4);
+          box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.5),0 1px 2px -1px rgba(255, 255, 255, 0.4);
+}
+
+#search:focus {
+  outline: none;
+  border-color: #151515;
+}
+
+/* Styles for fading out the drawer content in the "Expanding" demo */
+.drawer-inner {
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: opacity 0.3s ease; 
+     -moz-transition: opacity 0.3s ease; 
+      -ms-transition: opacity 0.3s ease; 
+       -o-transition: opacity 0.3s ease; 
+          transition: opacity 0.3s ease; 
+}
+
+.snapjs-expand-left .drawer-inner,
+.snapjs-expand-right .drawer-inner {
+  opacity: 0;
+}
+
+/* Styles for the "<img src="assets/gear.png">Settings</a>" demo */
+.opt {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.opt p {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #222;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Default demo styles */
+.snap-content {
+  background: #BFC7D8;
+}
+
+.snap-drawers {
+  background: #323949;
+}
+
+.snap-drawer {
+  background: #323949;
+  color: #eee;
+}
+
+.snap-drawer h3 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 15px;
+}
+
+.snap-drawer h4 {
+  padding: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+}
+
+.snap-drawer p {
+  opacity: 0.5;
+  padding: 15px;
+  font-size: 12px;
+}
+#juicebox-content {
+  width: 100%;
+  height:100%;
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  backface-visibility:hidden;
+    -webkit-backface-visibility:hidden; /* Chrome and Safari */
+    -moz-backface-visibility:hidden; /* Firefox */
+    -ms-backface-visibility:hidden; /* Internet Explorer 10+ */
+}
+#container {
+  margin-top:20px;
+  color:#000;
+  height:90%;
+}
+.splash {
+  width:100%;
+  text-align: center;
+  margin-top: 200px;
+  vertical-align: middle;
+}
+.col {
+  float: left;
+  width: 100%;
+}
+.colsplit {
+  position: relative;
+  float: left;
+  display: inline-block;
+  width:50%;
+}
+.about-area {
+  width: 100%;
+  height: 200px;
+  font: 14px Arial, Helvetica, sans-serif
+  vertical-align:top;
+  background: #FFF;
+  border: 1px solid #333;
+  margin-bottom: 5px;
+}
+.dealer-area {
+  width: 100%;
+  height: 30px;
+  font: 14px Arial, Helvetica, sans-serif
+  vertical-align:top;
+  background: #FFF;
+  border: 1px solid #333;
+  margin-bottom:5px;
+}
+.dealer-area div {
+  height: 100%;
+  position: relative;
+}
+.about-add li {
+  list-style-type: disc;
+  background: #FFF;
+}
+.about-5star {
+  margin-bottom:-20px;
+}
+#container img {
+  text-align: right;
+}
+.scrollable{
+    overflow: auto;
+    -webkit-transition-property: top, bottom;
+    transition-property: top, bottom;
+    -webkit-transition-duration: .2s, .2s;
+    transition-duration: .2s, .2s;
+    -webkit-transition-timing-function: linear, linear;
+    transition-timing-function: linear, linear;
+    -webkit-overflow-scrolling: touch;
+}
+.col2 {
+  float: left;
+  width:50%;
+  font-size:24pt;
+  line-height: 30pt;
+}
+.sliderContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 95%;
+  margin:0;
+  overflow-y: auto;
+}
+.iosSlider {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.iosSlider .slider {
+  width: 100%;
+  height: 100%;
+}
+
+.iosSlider .slider .item {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.right-side {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    z-index: 10;
+    color: #FFF;
+    cursor: pointer;
+    background: rgba(255,255,255,.37);
+    -webkit-box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 7px 13px;
+}
+.left-side {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    z-index: 10;
+    color: #FFF;
+    cursor: pointer;
+    background: rgba(255,255,255,.37);
+    -webkit-box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 7px 13px;
+}
+.gutters {
+  padding:18px 15px;
+}
+.margin-right {
+  margin-right: 15px;
+}
+.margin-left {
+  margin-left: 15px;
+}
+.margin-bottom {
+  margin-bottom: 25px;
+}
+.split {
+  float:left;
+}
+.col-left {
+  float:left;
+  width:40%;
+}
+.col-right {
+  float:right;
+  width:58%;
+  margin-left:10px;
+  text-align: right;
+}
+.height-fix {
+  height: 100%;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.pull-right {
+  float:right;
+}
+.pull-left {
+  float:left;
+}
+.list-none li {
+  list-style-type: none;
+  display: inline;
+  float:left;
+  margin-right: 10px;
+}
+.colfour-left {
+  float:left;
+  width:27%;
+}
+.colfour-right {
+  float:right;
+  width:70%;
+}
+.colthree-left {
+  float:left;
+  width:30%;
+}
+.colthree-right, .colthree-right2 {
+  float:right;
+  width:20%;
+  margin-right:15px;
+  text-align: right;
+}
+.colhalf-left {
+  float:left;
+  width:50%;
+  margin-right:15px;
+  text-align: left;
+}
+.colhalf-right {
+  float:right;
+  width:48%;
+  text-align: left;
+}
+.colhalfless-left {
+  float:left;
+  width:44%;
+  margin-right:15px;
+  text-align: left;
+}
+.colhalfmain-right {
+  float:right;
+  width:54%;
+  text-align: left;
+}
+.onethird-left {
+  float:left;
+  width:30%;
+}
+.onethird-right {
+  float:right;
+  width:30%;
+}
+.twothird-right{
+  float:right;
+  width:68%;
+  text-align: left;
+}
+.twothird-left{
+  float:left;
+  width:65%;
+  text-align: left;
+}
+@media only screen and (orientation:landscape){
+  .col-right img {
+    height:100%;
+  } 
+}
+/*normal styles here */
+.clear-fix {
+  clear:both;
+}
+.text-default {
+  font-size:18pt;
+  font-weight: bolder;
+  line-height: 24pt;
+}
+.text-center {
+  text-align: center;
+}
+.text-sub {
+  font-size: 14pt;
+  font-weight: normal;
+}
+.text-about {
+  font-size:18pt;
+  font-weight: bolder;
+  line-height: 36pt;
+}
+.text-long {
+  font-size:14pt;
+  font-weight: bolder;
+  line-height: normal;  
+}
+.footnote {
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.invis {
+  visibility: hidden;
+}
+h3 {
+  color: #222; 
+  font: 40px 'LeagueGothicRegular';
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.h3-smaller {
+  color: #222; 
+  font: 36px 'LeagueGothicRegular';
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+#twoPic {
+   width:1024px;
+}
+#twoPic{
+    max-width:100%;
+}
+#twoPic li {
+    width: 48%;
+    float: left;
+    list-style-type: none;
+    padding:0;
+    position: relative;
+    right:30px;
+}
+.twoPicCol {
+  margin-right:15px;
+}
+#twoPic li img {
+    width: 100%;
+}
+@media only screen and (orientation:portrait){
+   /* portrait styles here */
+   #twoPic {
+      width:768px;
+   }
+   #twoPic li img {
+      width: 100%;
+    }
+   #twoPic li {
+    width: 48%;
+    float: left;
+    list-style-type: none;
+  }
+  .colthree-right, .colthree-right2 {
+    float:left;
+    width:33%;
+  }
+  .colthree-right {
+    clear:both;
+  }
+}
+
+
+

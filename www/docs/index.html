@@ -1,0 +1,1287 @@
+<!DOCTYPE HTML>
+
+    <head>      
+		<meta charset="utf-8">
+		<title>BigWig - Minimal Portfolio and Corporate Template Documentation - pixelentity</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/syntax.css" />
+		<link rel="stylesheet" href="css/docs_style.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.pixelentity.hotspot.js"></script>
+		<script type="text/javascript" src="js/docs.js"></script>
+	</head>
+	
+    <body>
+	
+		<!--header section-->
+		<div class="header">
+			
+			<!--logo-->
+			<a href="http://pixelentity.com" class="logo"><img src="img/logo.png" alt="logo" /></a>
+			
+			<!--introduction text-->
+			<div class="intro">				
+				<p>Hi there and thank you for buying a premium digital product from Pixelentity. In order to get the most out of your purchase, please make sure to carefully read all of the information contained in this page. Use the table of contents at the top of this page to jump to a relevant section.</p>
+			</div>
+			<!--end introduction text-->
+			
+			<span class="title">BigWig - Minimal Portfolio and Corporate Template</span>
+			
+		</div>
+		
+		<!--end header section-->
+		<div class="toc" id="toc">
+			<h1>TABLE OF CONTENTS</h1>
+			<!-- toc -->
+<a class="section" href="#sec1_0"><span>1</span> Getting Started</a><a class="subsection" href="#sec1_1"><span>1.1</span>Getting Started - Setting Up Your Site</a><a class="subsection" href="#sec1_2"><span>1.2</span>Getting Started - Alternate Versions</a><a class="subsection" href="#sec1_3"><span>1.3</span>Getting Started - Lazy Loading</a><a class="subsection" href="#sec1_4"><span>1.4</span>Getting Started - Website Layout Format</a><a class="section" href="#sec2_0"><span>2</span> Portfolio</a><a class="subsection" href="#sec2_1"><span>2.1</span>Portfolio - Columns</a><a class="subsection" href="#sec2_2"><span>2.2</span>Portfolio - Full Width Grid</a><a class="subsection" href="#sec2_3"><span>2.3</span>Portfolio - Full Width Grid, Adding Projects/Cells</a><a class="subsection" href="#sec2_4"><span>2.4</span>Portfolio - Project List</a><a class="section" href="#sec3_0"><span>3</span> Gallery</a><a class="subsection" href="#sec3_1"><span>3.1</span>Gallery - Adding Images</a><a class="subsection" href="#sec3_2"><span>3.2</span>Gallery - Adding Filters</a><a class="section" href="#sec4_0"><span>4</span> Media</a><a class="subsection" href="#sec4_1"><span>4.1</span>Media - Simple Image</a><a class="subsection" href="#sec4_2"><span>4.2</span>Media - Lightbox Image</a><a class="subsection" href="#sec4_3"><span>4.3</span>Media - Lightbox Video</a><a class="subsection" href="#sec4_4"><span>4.4</span>Media - Inline Video</a><a class="section" href="#sec5_0"><span>5</span> Flare Lightbox Plugin</a><a class="subsection" href="#sec5_1"><span>5.1</span>Flare - Single image</a><a class="subsection" href="#sec5_2"><span>5.2</span>Flare - Text Captions</a><a class="subsection" href="#sec5_3"><span>5.3</span>Flare - Single Online Video</a><a class="subsection" href="#sec5_4"><span>5.4</span>Flare - Gallery</a><a class="subsection" href="#sec5_5"><span>5.5</span>Flare - Gallery with thumbnails</a><a class="subsection" href="#sec5_6"><span>5.6</span>Flare - Gallery with videos</a><a class="subsection" href="#sec5_7"><span>5.7</span>Flare - Alternate Gallery, Shutter Effect</a><a class="section" href="#sec6_0"><span>6</span> Slider</a><a class="subsection" href="#sec6_1"><span>6.1</span>Slider - Item</a><a class="subsection" href="#sec6_2"><span>6.2</span>Slider - Full Width</a><a class="subsection" href="#sec6_3"><span>6.3</span>Slider - Caption Layers</a><a class="subsection" href="#sec6_4"><span>6.4</span>Slider - Caption Layer, Text</a><a class="subsection" href="#sec6_5"><span>6.5</span>Slider - Caption Layer, Image</a><a class="subsection" href="#sec6_6"><span>6.6</span>Slider - Caption Layer, Position</a><a class="subsection" href="#sec6_7"><span>6.7</span>Slider - Caption Layer, Timing</a><a class="subsection" href="#sec6_8"><span>6.8</span>Slider - Caption Layer, Transition</a><a class="subsection" href="#sec6_9"><span>6.9</span>Slider - Caption Layer, All Parameters</a><a class="subsection" href="#sec6_10"><span>6.10</span>Slider - Caption Layer, Styling</a><a class="section" href="#sec7_0"><span>7</span> Carousel</a><a class="subsection" href="#sec7_1"><span>7.1</span>Carousel - Item</a><a class="subsection" href="#sec7_2"><span>7.2</span>Carousel - Gallery From Hidden Items</a><a class="section" href="#sec8_0"><span>8</span> Pricing Tables</a><a class="subsection" href="#sec8_1"><span>8.1</span>Pricing Tables - Column</a><a class="section" href="#sec9_0"><span>9</span> Forms</a><a class="subsection" href="#sec9_1"><span>9.1</span>Forms - Contact / Quotation</a><a class="subsection" href="#sec9_2"><span>9.2</span>Forms - Contact, Google Maps</a><a class="subsection" href="#sec9_3"><span>9.3</span>Forms - Newsletter Widget</a><a class="section" href="#sec10_0"><span>10</span> Blog</a><a class="subsection" href="#sec10_1"><span>10.1</span>Blog - Adding Posts</a><a class="section" href="#sec11_0"><span>11</span> Twitter Bootstrap</a><a class="subsection" href="#sec11_1"><span>11.1</span>Twitter Bootstrap - Tabs</a><a class="subsection" href="#sec11_2"><span>11.2</span>Twitter Bootstrap - Accordions</a><a class="subsection" href="#sec11_3"><span>11.3</span>Twitter Bootstrap - Share buttons</a><a class="subsection" href="#sec11_4"><span>11.4</span>Twitter Bootstrap - FAQs</a><a class="subsection" href="#sec11_5"><span>11.5</span>Twitter Bootstrap - Responsive Framework</a><a class="section" href="#sec12_0"><span>12</span> BigWig</a><a class="subsection" href="#sec12_1"><span>12.1</span>BigWig - The Fluid Grid</a><a class="subsection" href="#sec12_2"><span>12.2</span>BigWig - Responsive Layout</a><a class="subsection" href="#sec12_3"><span>12.3</span>BigWig - Fonts</a><a class="subsection" href="#sec12_4"><span>12.4</span>BigWig - Custom CSS, Finding</a><a class="subsection" href="#sec12_5"><span>12.5</span>BigWig - Custom CSS, Altering (Simple Version)</a><a class="subsection" href="#sec12_6"><span>12.6</span>BigWig - Custom CSS, Altering (Advanced)</a><a class="section" href="#sec13_0"><span>13</span> Mobile</a><a class="subsection" href="#sec13_1"><span>13.1</span>Mobile - Rollover Effects</a><a class="subsection" href="#sec13_2"><span>13.2</span>Mobile - Android</a><a class="section" href="#sec14_0"><span>14</span> Updates</a>		</div>
+		
+		<!-- docs -->		
+<div class="bbcode-body">
+<br/>
+<h1><a name="sec1_0">1</a> Getting Started<a class="top" href="#toc">top</a></h1><b>Folders</b>
+<br/>
+<table><tr><td class="option">alternate</td><td class="value">This folder contains 4 different version of the template (See section 2)<td></tr><tr><td class="option">css</td><td class="value">This folder contains all of the css for the template<td></tr><tr><td class="option">docs</td><td class="value">This is the help documentation. To view simply open <i>index.html</i> found inside this folder<td></tr><tr><td class="option">font</td><td class="value">This folder contains the icon font used in the template<td></tr><tr><td class="option">framework</td><td class="value">This folder contains all of the css &amp; js for the dynamic components used in the template<td></tr><tr><td class="option">img</td><td class="value">All images for the template are found here. The images are split further into 2 sub folders <i>Content</i> &amp; <i>Skin</i>. The skin folder contains all of the images required for the template&#39;s skin, while the content folder contains all of the dummy content for the template.<td></tr><tr><td class="option">js</td><td class="value">This folder holds the external javascript libraries used in the template as well as our own controller for the components (found in the &quot;framework&quot; folder.<td></tr><tr><td class="option">php</td><td class="value">The contact, quotation  and newsletter form form php scripts can be found here<td></tr><tr><td class="option">theme</td><td class="value">This folder contains the compressed sources for the template. (See section 2 for more info on compression).<td></tr></table><b>Files</b>
+<br/>
+<table><tr><td class="option">favicon.jpg</td><td class="value">This is the little bookmark icon, to be replaced with your own icon<td></tr><tr><td class="option">filename.html</td><td class="value">These are the main html files of the template, open the index.html file this in your browser to preview the template.<td></tr><tr><td class="option">icon_font_reference.html</td><td class="value">This file is used to preview all the class names available with the included icon font.<td></tr></table>
+<h2><a name="sec1_1">1.1</a> Getting Started - Setting Up Your Site</h2>
+<br/>
+To see your website online you will first need to place some files and folder on your server using FTP.<br/>
+<br>
+<b>Files/Folders To Place On Server</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>favicon.jpg<br/>
+	</li>
+	<li>all html files found in the root folder<br/>
+	</li>
+	<li>css (folder)<br/>
+	</li>
+	<li>font (folder)<br/>
+	</li>
+	<li>framework (folder)<br/>
+	</li>
+	<li>img (folder)<br/>
+	</li>
+	<li>js (folder)<br/>
+	</li>
+	<li>theme (folder)<br/>
+	</li>
+	<li>php (folder)</li>
+</ol>
+Make sure when uploading the files to your server that the folder structure is maintained, otherwise the template will not function as expected. With all of the above files on your server, you should be able to navigate to your domain address and view the site.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec1_2">1.2</a> Getting Started - Alternate Versions</h2>
+<br/>
+The template bundles 4 version of the html files, each one of them has a separate subfolder in the &quot;alternate&quot; folder:<br/>
+<br>
+<table><tr><td class="option">compressed</td><td class="value">Uses a single optimized/compressed file for javascript/css and has image lazy-loading enabled. Best performances in terms of site loading speed.<td></tr><tr><td class="option">nolazy</td><td class="value">Same as the above but with lazy-loading turned off, useful if you want all your images to be indexed by search engines.<td></tr><tr><td class="option">uncompressed</td><td class="value">Same as compressed version but it load individual, uncompressed css and js files. Useful if you want to debug the template or customize its javascript or CSS sources.<td></tr><tr><td class="option">uncompressed-nolazy</td><td class="value">Same as the uncompressed above but with lazy-loading turned off.<td></tr></table>If using one of the alternative versions of this template, contained in the &quot;alternate&quot; folder, then all of the files and folder needed for that version are in the main root folder. Only the html files are contained in the &quot;alternate&quot; folder. These will need to be copied into the root folder to replace the current ones.<br/>
+<br>
+<br/>
+<h2><a name="sec1_3">1.3</a> Getting Started - Lazy Loading</h2>
+<br/>
+Lazy loading is a technique which defers loading of images: instead of loading all of them as soon as the page is requested, only the ones that are currently visible in the view port will be loaded. As soon as user scrolls the page and a previously hidden image will be visible, it will be loaded.<br/>
+<br>
+To take advantage of the feature, each image must be added like this:<div class="highlight"><pre><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/186x115.gif&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/port7-186x115.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;186&quot;</span> <span class="na">height=</span><span class="s">&quot;115&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">src</td><td class="value">Set the src parameter to a fake image (transparent gif) which has the same size of the original image. There are several ready made in the &quot;img/blank&quot; subfolder for different resolution. If you cannot find one that match your size, you will have to create it (to resize whatever of the sample blank images with will be ok). It&#39;s very important that the fake image has the exact size of the original image, or else something will most likely break.<td></tr><tr><td class="option">data-original</td><td class="value">real url of the image<td></tr></table>
+<h2><a name="sec1_4">1.4</a> Getting Started - Website Layout Format</h2>
+<br/>
+There are 2 supported layouts in the BigWig template. These are <b>boxed</b> layout and <b>wide</b> layout. By default the template will display the wide layout, but to achieve the boxed version, simply add the class <b>boxed</b> to the body tag of each HTML page in your website. Like this:<div class="highlight"><pre><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">&quot;boxed&quot;</span><span class="nt">&gt;</span>
+</pre></div>
+Once this is done, the website content will now become a fixed width, centrally aligned 980px format. Once this happens the background of the site will be seen. If you wish to change the color of this background you can use the following snippet of CSS. Place it in the head section of each of the HTML pages. Just replace the &quot;#fafafa&quot; with your desired hex color reference.<div class="highlight"><pre><span class="nt">&lt;style&gt;</span>
+    <span class="nt">body</span><span class="nc">.boxed</span><span class="p">{</span>
+        <span class="k">background-color</span><span class="o">:</span><span class="m">#fafafa</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+</pre></div>
+<br/>
+<h1><a name="sec2_0">2</a> Portfolio<a class="top" href="#toc">top</a></h1>The portfolio is where all your projects are listed. The portfolio in the BigWig template has the following 3 possible formats:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li> Columns<br/>
+	</li>
+	<li> Full width grid<br/>
+	</li>
+	<li> Project List</li>
+</ol>
+Each of these formats has its own set of options/parameters, which will be explained in the following sub sections.<br/>
+<br>
+<br/>
+<h2><a name="sec2_1">2.1</a> Portfolio - Columns</h2> 
+<br/>
+The columns format consists of a regular grid of image arranged in columns with spacing between the columns. Projects shown in this way may only be image format projects. The number of columns can be varied by change the the twitter bootstrap classes eg. &quot;span3&quot;. Refer to the Twitter Bootstrap Responsive Gird for more info on these classes. The markup needed for this portfolio is shown below:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;pe-container&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotope&quot;</span><span class="nt">&gt;</span>
+<br/>
+        <span class="c">&lt;!--filter goes here--&gt;</span>
+<br>
+        <span class="c">&lt;!-- Project Feed --&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotopeContainer&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+<br/>
+                    <span class="c">&lt;!-- Columns Go Here --&gt;</span>
+<br/>
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Defining Columns</b>
+<br/>
+The number of columns is determined by the number of columns used by each item. The max number of columns in any layout is 12. In the demo website, each item spans 3 columns, which mean there are 4 columns in the portfolio grid. A single row of grid Items would therefore look like this:<div class="highlight"><pre><span class="c">&lt;!--single row--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- 4 x columns of 3span elements--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span3&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span3&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span3&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span3&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+Each row of the portfolio would need to be created like this wrapped in a div element with a class of <i>row-fluid</i>. 
+<br/>
+A 3 column layout with 2 rows would therefore look like this (again using the maximum of 12 columns):<div class="highlight"><pre><span class="c">&lt;!--row 1--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- 3 x columns of 4span elements--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span4&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span4&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span4&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<br/>
+<span class="c">&lt;!--row 2--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- 3 x columns of 4span elements--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span4&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span4&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span4&quot;</span><span class="nt">&gt;</span>portfolio item<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Portfolio Item</b>
+<br/>
+A portfolio items here uses the following markup. This particular item is a &quot;span3&quot; item as defined by that class in it&#39;s uppermost div.<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span3 project-item peIsotopeItem filter-architecture&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;over-effect&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/420x372.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/project/01-420x372.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;420&quot;</span> <span class="na">height=</span><span class="s">&quot;372&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;h6&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Lorem Ipsum Dolor<span class="nt">&lt;/a&gt;&lt;/h6&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Dipiscing elit donec odio quisque.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Filters</b>
+<br/>
+The column item can also be filtered just like the other portfolio formats. The markup is the same as elsewhere, and look like this:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;container filter&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;span12 project-filter&quot;</span><span class="nt">&gt;</span>
+<br>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;filter-keywords peIsotopeFilter&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">class=</span><span class="s">&quot;active&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>ALL<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;architecture&quot;</span><span class="nt">&gt;</span>ARCHITECTURE<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;webdesign&quot;</span><span class="nt">&gt;</span>WEB DESIGN<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;interiors&quot;</span><span class="nt">&gt;</span>INTERIORS<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;print&quot;</span><span class="nt">&gt;</span>PRINT<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ul&gt;</span>                    
+<br>
+        <span class="nt">&lt;/section&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+A project item can have one or more filter keywords attached to it. Keywords take the form <b>filter-keyword</b>, where <i>keyword</i> is the actual filter title. These keywords are then added to the filter list as shown here below using the form <b>data-category=&quot;keyword&quot;</b> where <i>keyword</i> is the filter title as added to the image item.<br/>
+<br>
+<br/>
+<br>
+<br/>
+<h2><a name="sec2_2">2.2</a> Portfolio - Full Width Grid</h2> 
+<br/>
+This format uses the BigWig template&#39;s grid component, just like the gallery. Unlike the gallery however, here in the portfolio the grid is set to a regular layout. The grid cell size is set to 320x240px, however this can be other values if required. This size will vary slightly with different browser resolutions, to ensure a whole number of grid items fits in the browser window.<br/>
+<br>
+The markup required for this grid is as follows:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotope portfolio&quot;</span><span class="nt">&gt;</span>
+<br>
+        <span class="c">&lt;!--filter goes here--&gt;</span>
+<br>
+        <span class="nt">&lt;div</span>
+            <span class="na">class=</span><span class="s">&quot;peIsotopeContainer peIsotopeGrid&quot;</span>
+            <span class="na">data-cell-width=</span><span class="s">&quot;320&quot;</span>
+            <span class="na">data-cell-height=</span><span class="s">&quot;240&quot;</span>
+            <span class="na">data-sort=</span><span class="s">&quot;none&quot;</span>
+            <span class="nt">&gt;</span>
+<br>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid pe-gallery-thumbnails&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+<br/>
+                    <span class="c">&lt;!--grid items go here--&gt;</span>
+<br/>
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-cell-width</td><td class="value">Cell width in pixels.<td></tr><tr><td class="option">data-cell-height</td><td class="value">Cell height in pixels.<td></tr></table>
+<h2><a name="sec2_3">2.3</a> Portfolio - Full Width Grid, Adding Projects/Cells</h2>
+<br/>
+The grid also supports cells who&#39;s content is image or video related. These items display the same in the grid, the only difference being that when clicked, the video/image content is shown in a lightbox. 
+<br/>
+Shown here below is the markup stub, which is used to show both types of grid project. Refer to the Media Section for specific internal markup for each type.<div class="highlight"><pre><span class="c">&lt;!-- project item --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotopeItem filter-architecture&quot;</span> <span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;cell-title&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;project-gallery.html&quot;</span><span class="nt">&gt;</span>Project Title<span class="nt">&lt;/a&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;scalable&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- MEDIA CONTENT HERE, REFER TO MEDIA SECTION FOR EXAMPLES --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- project item end --&gt;</span>
+</pre></div>
+<b>Parameter List:</b>
+<br/>
+<table><tr><td class="option">cell-title</td><td class="value">This is the project title shown when the grid item is hovered. This title links to the single project page of this project, if one exists.<td></tr></table>
+<h2><a name="sec2_4">2.4</a> Portfolio - Project List</h2> 
+<br/>
+In this format, all projects appear in a single column list. Here projects may be images, Videos or Slider components. A pager may be used in this format linking other pages of projects. Shown here below is the markup required for a project in this format. List formatted portfolio pages may not use filters.<div class="highlight"><pre><span class="c">&lt;!--project item--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid project-single-col&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;span4 info&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;inner-spacer-right-lrg&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h3&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;project-image.html&quot;</span><span class="nt">&gt;</span>Project Title 01<span class="nt">&lt;/a&gt;&lt;/h3&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;categories&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>house,<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span> interior,<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span> furniture<span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;intro&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellen tesque aliquet nibh nec urna. In nisi neq.<span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id. <span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;project-image.html&quot;</span> <span class="na">class=</span><span class="s">&quot;read-more&quot;</span><span class="nt">&gt;</span>View Project<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/section&gt;</span>
+<br>
+    <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;span8 media&quot;</span><span class="nt">&gt;</span>
+<br>
+        <span class="c">&lt;!-- MEDIA CONTENT HERE, REFER TO MEDIA SECTION FOR EXAMPLES --&gt;</span>
+<br/>
+    <span class="nt">&lt;/section&gt;</span>
+<span class="nt">&lt;/div&gt;</span><span class="c">&lt;!--end project item--&gt;</span>
+</pre></div>
+List projects display more text content than the other portfolio formats. For specific internal markup for the image/video/slider media components of this project format, refer to the &quot;Media&quot; section.<br/>
+<h1><a name="sec3_0">3</a> Gallery<a class="top" href="#toc">top</a></h1>The BigWig template has a gallery page. This page contains a filterable gallery which uses a grid component. Here the grid is a masonry style grid and can be inserted using the following markup:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotope&quot;</span><span class="nt">&gt;</span>
+<br>
+        <span class="c">&lt;!--filter goes here--&gt;</span>
+<br/>
+        <span class="nt">&lt;div</span> 
+            <span class="na">class=</span><span class="s">&quot;peIsotopeContainer peIsotopeGrid&quot;</span> 
+            <span class="na">data-cell-width=</span><span class="s">&quot;256&quot;</span> 
+            <span class="na">data-cell-height=</span><span class="s">&quot;auto&quot;</span> 
+            <span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid pe-gallery-thumbnails&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+<br/>
+                    <span class="c">&lt;!--image items go here--&gt;</span>
+<br/>
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>                
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameters:</b>
+<br/>
+<table><tr><td class="option">cell-width</td><td class="value">Enter here the standard width for the cells. This width will change slightly as the browser resolution gets smaller / bigger. The value entered here should generally be compatible with the standard resolution sizes.<td></tr><tr><td class="option">cell-height</td><td class="value">set this to auto and the images will get a height based on their image aspect ratio, resulting in the masonry layout effect<td></tr></table>
+<h2><a name="sec3_1">3.1</a> Gallery - Adding Images</h2>
+<br/>
+To add an image, use the markup block shown here below.<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotopeItem filter-webdesign&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;cell-title&quot;</span><span class="nt">&gt;</span>Image Caption<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;scalable&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- MEDIA CONTENT HERE, REFER TO MEDIA SECTION FOR EXAMPLES --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+The image is shown via flare lightbox, refer to its section for a more detailed explanation of all the parameters and other options.<br/>
+<br>
+<br/>
+<h2><a name="sec3_2">3.2</a> Gallery - Adding Filters</h2>
+<br/>
+A grid item can have one or more filter keywords attached to it. Keywords take the form <b>filter-keyword</b>, where <i>keyword</i> is the actual filter title. These keywords are then added to the filter list as shown here below using the form <b>data-category=&quot;keyword&quot;</b> where <i>keyword</i> is the filter title as added to the image item.<div class="highlight"><pre><span class="c">&lt;!--filters--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;pe-container filter&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;span12 project-filter&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;filter-keywords peIsotopeFilter&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">class=</span><span class="s">&quot;active&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>ALL<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;architecture&quot;</span><span class="nt">&gt;</span>ARCHITECTURE<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;webdesign&quot;</span><span class="nt">&gt;</span>WEB DESIGN<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;interiors&quot;</span><span class="nt">&gt;</span>INTERIORS<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">data-category=</span><span class="s">&quot;print&quot;</span><span class="nt">&gt;</span>PRINT<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ul&gt;</span>                    
+        <span class="nt">&lt;/section&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<br/>
+<br>
+<span class="c">&lt;!--example image with filter keywords --&gt;</span>
+<br/>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peIsotopeItem filter-webdesign&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;cell-title&quot;</span><span class="nt">&gt;</span>Image Caption<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;scalable&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- MEDIA CONTENT HERE, REFER TO MEDIA SECTION FOR EXAMPLES --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h1><a name="sec4_0">4</a> Media<a class="top" href="#toc">top</a></h1>The media section is used in many places, for example in a blog post or project, its structure is always the same and the only thing that changes is the width or height of the area. 
+<br/>
+<br>
+<h2><a name="sec4_1">4.1</a> Media - Simple Image</h2>
+<br/>
+The simple image media is mostly used in portfolio list, blog list, post and project image. It shows a simple image<div class="highlight"><pre><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/620x349.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/blog1-620x349.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;620&quot;</span> <span class="na">height=</span><span class="s">&quot;349&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+<b>Recommended image sizes</b>
+<br/>
+<table><tr><td class="option">Blog / Post / Portfolio List</td><td class="value">620x349<td></tr><tr><td class="option">Portfolio Grid</td><td class="value">320x240<td></tr><tr><td class="option">Portfolio Columns</td><td class="value">420x372<td></tr><tr><td class="option">Project</td><td class="value">940x460<td></tr><tr><td class="option">Gallery</td><td class="value">256x(any value)<td></tr></table>
+<h2><a name="sec4_2">4.2</a> Media - Lightbox Image</h2>
+<br/>
+The lightbox image is mostly used in gallery/portfolio grid, but can also be used elsewhere. It shows an image thumbnail which, once clicked, will open a lightbox window showing the image in full size. Optionally, the image can be part of an image gallery, when this happens, it will be possible to cycle between all gallery images in the lightbox directly.<div class="highlight"><pre><span class="c">&lt;!--image item--&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-title=</span><span class="s">&quot;Image Caption&quot;</span>
+   <span class="na">data-description=</span><span class="s">&quot;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.&quot;</span>
+   <span class="na">class=</span><span class="s">&quot;peOver&quot;</span>
+   <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+   <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery&quot;</span>
+   <span class="na">data-flare-thumb=</span><span class="s">&quot;img/content/gallery/06-90x74.jpg&quot;</span>
+   <span class="na">data-flare-plugin=</span><span class="s">&quot;default&quot;</span>
+   <span class="na">data-flare-scale=</span><span class="s">&quot;fit&quot;</span>
+   <span class="na">href=</span><span class="s">&quot;img/content/gallery/06.jpg&quot;</span>
+   <span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/256x256.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/gallery/06-256x.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;256&quot;</span> <span class="na">height=</span><span class="s">&quot;256&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+<b>Recommended image sizes</b>
+<br/>
+<table><tr><td class="option">Portfolio Grid</td><td class="value">320x240<td></tr><tr><td class="option">Gallery</td><td class="value">256x(any value)<td></tr></table><b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-title</td><td class="value">This is the image caption shown on the main grid, once the item is hovered and inside the lightbox caption if a lightbox is used<td></tr><tr><td class="option">data-description</td><td class="value">This description is shown inside the lightbox<td></tr><tr><td class="option">data-target</td><td class="value">This parameter assigns the lightbox plugin &quot;Flare&quot; to this image.<td></tr><tr><td class="option">data-flare-gallery</td><td class="value">This parameter links this image to a gallery group using the keyword &quot;gallery&quot;. All other images linked using this keyword, will display in the lightbox as a gallery of items when any one of them is launched<td></tr><tr><td class="option">data-flare-thumb</td><td class="value">Here the part to the thumbnail is inserted<td></tr><tr><td class="option">data-flare-plugin</td><td class="value">the option here are &quot;default&quot; &amp; &quot;shutter&quot;, its basically an image effect for the lightbox<td></tr><tr><td class="option">data-flare-scale</td><td class="value">Controls the image scaling, possible values are<br/>
+<br>
+&quot;fit&quot; - Fits the window: no cropping, always show entire image (default mode)<br/>
+&quot;fill&quot; - Fills the window: horizontal/vertical cropping may occur when image and window aspect ratios are different (almost always)<br/>
+&quot;fitmax&quot; - Same as &quot;fit&quot; but upscales the image if smaller than window<br/>
+&quot;fillmax&quot; - Same as &quot;fill&quot; but upscales the image if smaller than window<td></tr><tr><td class="option">href</td><td class="value">Here the path to the large image version is inserted<td></tr></table><div class="note">The Flare Lightbox component is used, for additional examples and parameters explanation, refer to the Flare Section.</div>
+<h2><a name="sec4_3">4.3</a> Media - Lightbox Video</h2>
+<br/>
+The lightbox video is mostly used in gallery/portfolio grid, but can also be used elsewhere. It shows an image thumbnail which, once clicked, will open a lightbox window where video playback will occur. Optionally, the image can be part of an image gallery, when this happens, it will be possible to cycle between all gallery images in the lightbox directly.<div class="highlight"><pre><span class="nt">&lt;a</span> <span class="na">data-title=</span><span class="s">&quot;Image Caption&quot;</span>
+   <span class="na">data-description=</span><span class="s">&quot;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.&quot;</span>
+   <span class="na">class=</span><span class="s">&quot;peOver&quot;</span>
+   <span class="na">data-flare-gallery=</span><span class="s">&quot;projectGallery&quot;</span>
+   <span class="na">data-flare-thumb=</span><span class="s">&quot;img/content/project/01-90x74.jpg&quot;</span>
+   <span class="na">data-flare-videoposter=</span><span class="s">&quot;img/content/project/01.jpg&quot;</span>
+   <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+   <span class="na">href=</span><span class="s">&quot;http://www.youtube.com/watch?v=S-DiWJ9TzNw&quot;</span>
+   <span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/320x240.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/project/01-320x240.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;320&quot;</span> <span class="na">height=</span><span class="s">&quot;240&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+<b>Parameter List (showing only those differing from the lightbox image example above)</b>
+<br/>
+<table><tr><td class="option">href</td><td class="value">Here the path to the video is inserted<td></tr><tr><td class="option">data-flare-videoposter</td><td class="value">If you wish to insert a custom poster image for the video you can do so using this parameter. omitting this parameter will auto load a poster image from the online video host (in this case YouTube)<td></tr></table><div class="note">The Flare Lightbox component is used, for additional examples and parameters explanation, refer to the Flare Section.</div>
+<h2><a name="sec4_4">4.4</a> Media - Inline Video</h2>
+<br/>
+The inline video is mostly used in blog, portfolio list, post and project. It shows a cover image of the video with a play icon which will start video playback once clicked. Youtube and Vimeo video are supported.<div class="highlight"><pre><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://youtu.be/ZDuxWGHA-Z4&quot;</span> <span class="na">class=</span><span class="s">&quot;peVideo&quot;</span><span class="nt">&gt;&lt;/a&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">href</td><td class="value">The link to the video is all that needs to be entered into the &quot;href&quot; attribute of the anchor tag.<td></tr><tr><td class="option">data-poster</td><td class="value">By default, cover image of the video will automatically be fetched from youtube/vimeo. By setting this parameter, instead, you can use a custom image<td></tr></table>
+<h1><a name="sec5_0">5</a> Flare Lightbox Plugin<a class="top" href="#toc">top</a></h1>The bundled lightbox can be used to display single images/videos or entire galleries. In this section you will find examples of how to take full advantage of all of its features.<br/>
+<br>
+<br/>
+<h2><a name="sec5_1">5.1</a> Flare - Single image</h2><div class="highlight"><pre><span class="nt">&lt;a</span>
+     <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+     <span class="na">href=</span><span class="s">&quot;image.jpg&quot;</span>
+     <span class="na">data-flare-scale=</span><span class="s">&quot;fit&quot;</span>
+     <span class="nt">&gt;</span>
+<br>
+    Single Image<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+<table><tr><td class="option">data-target</td><td class="value">When sets to &quot;flare&quot;, activates the lightbox when user clicks on the item<td></tr><tr><td class="option">data-flare-scale</td><td class="value">Controls the image scaling, possible values are<br/>
+<br>
+&quot;fit&quot; - Fits the window: no cropping, always show entire image (default mode)<br/>
+&quot;fill&quot; - Fills the window: horizontal/vertical cropping may occur when image and window aspect ratios are different (almost always)<br/>
+&quot;fitmax&quot; - Same as &quot;fit&quot; but upscales the image if smaller than window<br/>
+&quot;fillmax&quot; - Same as &quot;fill&quot; but upscales the image if smaller than window<td></tr></table>
+<h2><a name="sec5_2">5.2</a> Flare - Text Captions</h2><div class="highlight"><pre><span class="nt">&lt;a</span>
+     <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+     <span class="na">href=</span><span class="s">&quot;image.jpg&quot;</span>
+     <span class="na">data-flare-scale=</span><span class="s">&quot;fit&quot;</span>
+     <span class="na">data-title=</span><span class="s">&quot;Caption Title&quot;</span>
+     <span class="na">data-description=</span><span class="s">&quot;Caption Description&quot;</span>
+     <span class="nt">&gt;</span>
+<br>
+    Single Image<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+<table><tr><td class="option">data-title</td><td class="value">Caption title<td></tr><tr><td class="option">data-description</td><td class="value">Caption description<td></tr></table>
+<h2><a name="sec5_3">5.3</a> Flare - Single Online Video</h2><div class="highlight"><pre><span class="c">&lt;!-- YouTube --&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">href=</span><span class="s">&quot;http://www.youtube.com/watch?v=AFA-rOls8YA&quot;</span><span class="nt">&gt;</span>Youtube<span class="nt">&lt;/a&gt;</span>
+<span class="c">&lt;!-- Vimeo --&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">href=</span><span class="s">&quot;http://vimeo.com/39251390&quot;</span> <span class="na">data-flare-videowidth=</span><span class="s">&quot;1280&quot;</span><span class="nt">&gt;</span>Vimeo<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+<table><tr><td class="option">data-flare-videowidth</td><td class="value">Set max width of the video. If not set, the video will play fullscreen<td></tr></table>As you can see from the above markup, you only need to link the video location: the cover image will be fetched automatically from the appropriate source.<br/>
+<br>
+<br/>
+<h2><a name="sec5_4">5.4</a> Flare - Gallery</h2>
+<br/>
+Multiple images can be grouped in a gallery: when one of them is being displayed, it will be possible to navigate all of them without closing the lightbox. Navigation can happens in multiple ways: prev/next buttons, swipe gestures, mousewheel and keyboard. To group images in galleries, just add the <i>data-flare-gallery</i> attribute to the markup:<div class="highlight"><pre><span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> <span class="na">href=</span><span class="s">&quot;01.jpg&quot;</span><span class="nt">&gt;</span>Image 1<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> <span class="na">href=</span><span class="s">&quot;02.jpg&quot;</span><span class="nt">&gt;</span>Image 2<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> <span class="na">href=</span><span class="s">&quot;03.jpg&quot;</span><span class="nt">&gt;</span>Image 3<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+All the above images will be grouped in &quot;gallery1&quot;, you can have different galleries in the same page 
+<br/>
+Image navigation methods supported:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Next / Previous UI Arrows<br/>
+	</li>
+	<li>Keyboard Left / Right Arrows<br/>
+	</li>
+	<li>Mouse Wheel Scroll<br/>
+	</li>
+	<li>Swipe Gestures (On Mobile &amp; Tablet Devices)</li>
+</ol>
+<br/>
+<h2><a name="sec5_5">5.5</a> Flare - Gallery with thumbnails</h2>
+<br/>
+Gallery mode can also display thumbnails of all images in the bottom lightbox area, to activate the thumbnails, use the <i>data-flare-thumb</i> attribute<div class="highlight"><pre><span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> <span class="na">data-flare-thumb=</span><span class="s">&quot;thumb01.jpg&quot;</span> <span class="na">href=</span><span class="s">&quot;01.jpg&quot;</span><span class="nt">&gt;</span>Image 1<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> <span class="na">data-flare-thumb=</span><span class="s">&quot;thumb02.jpg&quot;</span> <span class="na">href=</span><span class="s">&quot;02.jpg&quot;</span><span class="nt">&gt;</span>Image 2<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> <span class="na">data-flare-thumb=</span><span class="s">&quot;thumb03.jpg&quot;</span> <span class="na">href=</span><span class="s">&quot;03.jpg&quot;</span><span class="nt">&gt;</span>Image 3<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+Image navigation methods supported:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Next / Previous UI Arrows<br/>
+	</li>
+	<li>Select a Thumbnail<br/>
+	</li>
+	<li>Keyboard Left / Right Arrows<br/>
+	</li>
+	<li>Mouse Wheel Scroll<br/>
+	</li>
+	<li>Swipe Gestures (On Mobile &amp; Tablet Devices)</li>
+</ol>
+If thumbs are showing, swipe gestures will control the thumbnail scrolling. Close the thumbnails to use swipe gestures on the main images.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec5_6">5.6</a> Flare - Gallery with videos</h2>
+<br/>
+Each image shown in a gallery can be related to a video: unlike the single video example we saw before, the video does not autoplay in this case. Instead, a large video play icon is shown above the image and playback only starts when user clicks on it.<div class="highlight"><pre><span class="nt">&lt;a</span> 
+     <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> 
+     <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> 
+     <span class="na">data-flare-thumb=</span><span class="s">&quot;thumb01.jpg&quot;</span> 
+     <span class="na">href=</span><span class="s">&quot;01.jpg&quot;</span>
+     <span class="na">data-flare-video=</span><span class="s">&quot;http://www.youtube.com/watch?v=AFA-rOls8YA&quot;</span>
+     <span class="nt">&gt;</span>
+    Image 1 with Youtube video<br/>
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> 
+     <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> 
+     <span class="na">data-flare-gallery=</span><span class="s">&quot;gallery1&quot;</span> 
+     <span class="na">data-flare-thumb=</span><span class="s">&quot;thumb02.jpg&quot;</span> 
+     <span class="na">href=</span><span class="s">&quot;02.jpg&quot;</span>
+     <span class="na">data-flare-video=</span><span class="s">&quot;http://vimeo.com/39251390&quot;</span>
+     <span class="nt">&gt;</span>
+    Image 2 with Vimeo video<br/>
+<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+Since the <i>href</i> attribute is already used to reference the image, to link a video in this case we use <i>data-flare-video</i> attribute<br/>
+<br>
+<br/>
+<br>
+<br/>
+<h2><a name="sec5_7">5.7</a> Flare - Alternate Gallery, Shutter Effect</h2>
+<br/>
+Flare also includes an alternate gallery mode using a black and white/zooming image transition: this mode is called shutter and can be activated using the <i>data-flare-plugin</i> attribute<div class="highlight"><pre><span class="nt">&lt;a</span>
+     <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+     <span class="na">data-flare-plugin=</span><span class="s">&quot;shutter&quot;</span>
+     <span class="na">data-flare-gallery=</span><span class="s">&quot;newGalleryName&quot;</span>
+     <span class="na">data-flare-scale=</span><span class="s">&quot;fillmax&quot;</span>
+     <span class="na">data-flare-thumb=</span><span class="s">&quot;img/content/small/01.jpg&quot;</span>
+     <span class="na">data-flare-bw=</span><span class="s">&quot;img/content/big/01bw.jpg&quot;</span>
+     <span class="na">href=</span><span class="s">&quot;img/content/big/01.jpg&quot;</span>
+     <span class="nt">&gt;</span>
+<br>
+    Fullscreen Shutter Gallery With Thumbs - Image 1<br/>
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span>
+     <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+     <span class="na">data-flare-plugin=</span><span class="s">&quot;shutter&quot;</span>
+     <span class="na">data-flare-gallery=</span><span class="s">&quot;newGalleryName&quot;</span>
+     <span class="na">data-flare-scale=</span><span class="s">&quot;fillmax&quot;</span>
+     <span class="na">data-flare-thumb=</span><span class="s">&quot;img/content/small/02.jpg&quot;</span>
+     <span class="na">data-flare-bw=</span><span class="s">&quot;img/content/big/02bw.jpg&quot;</span>
+     <span class="na">href=</span><span class="s">&quot;img/content/big/02.jpg&quot;</span>
+     <span class="nt">&gt;</span>
+<br>
+    Fullscreen Shutter Gallery With Thumbs - Image 2<br/>
+<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+Since shutter mode requires a black and white version of the image to do the transition, we need the extra parameter <i>data-flare-bw</i> to define it. The bw image is not mandatory and can be omitted, obviously in this case, the transition would skip the black and white effect part.<div class="note">Black &amp; White version of the main image  and also the thumbnail image need to be prepared manually. this plugin does not automate this process.</div>
+<h1><a name="sec6_0">6</a> Slider<a class="top" href="#toc">top</a></h1>The HTML required for this element is as follows<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;pe-block peSlider peVolo&quot;</span> 
+     <span class="na">data-autopause=</span><span class="s">&quot;enabled&quot;</span> 
+     <span class="na">data-plugin=</span><span class="s">&quot;peVario&quot;</span>
+     <span class="na">data-transition=</span><span class="s">&quot;random&quot;</span>
+     <span class="nt">&gt;</span>
+<br/>
+    <span class="c">&lt;!-- SLIDER ITEMS --&gt;</span>
+<br>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-autopause</td><td class="value">If set to &quot;enabled&quot; will pause the automatic sliding of the main images once the user hovers over the image with the mouse.<td></tr><tr><td class="option">data-plugin</td><td class="value">Select one from two available slider engines<br/>
+<br>
+<i>peVario</i> - CSS3 Transitions.<br/>
+<br>
+<i>peVolo</i> - Swipe.<td></tr><tr><td class="option">data-transition</td><td class="value">Only applies when &quot;peVario&quot; is used, select one from the available background transitions<br/>
+<br>
+<i>random</i>
+<br/>
+<i>fade</i>
+<br/>
+<i>blockfade</i>
+<br/>
+<i>fall</i>
+<br/>
+<i>domino</i>
+<br/>
+<i>flip</i>
+<br/>
+<i>revealL</i>
+<br/>
+<i>revealR</i>
+<br/>
+<i>revealT</i>
+<br/>
+<i>revealB</i>
+<br/>
+<i>saw</i>
+<br/>
+<i>scale</i>
+<br/>
+<i>bars</i>
+<br/>
+<i>zoom</i>
+<br/>
+<i>drop</i><td></tr></table>
+<h2><a name="sec6_1">6.1</a> Slider - Item</h2><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">data-delay=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+<br/>
+    <span class="c">&lt;!-- main image --&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#optional-link&quot;</span> <span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/940x460.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/gallery/19-940x460.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;940&quot;</span> <span class="na">height=</span><span class="s">&quot;460&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-delay</td><td class="value">This parameter is inserted on each main image&#39;s div and it determines the amount of time before the slide changes automatically. If this parameter is set to &quot;0&quot; then the slide will not advance automatically.<td></tr></table>
+<h2><a name="sec6_2">6.2</a> Slider - Full Width</h2>
+<br/>
+A a full width section can use a full width slider:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;pe-block peSlider peVolo&quot;</span> 
+     <span class="na">data-autopause=</span><span class="s">&quot;enabled&quot;</span> 
+     <span class="na">data-plugin=</span><span class="s">&quot;peVario&quot;</span>
+     <span class="na">data-transition=</span><span class="s">&quot;random&quot;</span>
+     <span class="na">data-height=</span><span class="s">&quot;0,2.35,450&quot;</span> 
+     <span class="na">data-orig-width=</span><span class="s">&quot;940&quot;</span>
+     <span class="na">data-orig-height=</span><span class="s">&quot;450&quot;</span>
+     <span class="nt">&gt;</span>
+<br/>
+    <span class="c">&lt;!-- SLIDER ITEMS --&gt;</span>
+<br>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<table><tr><td class="option">data-height</td><td class="value">This parameter controls max height of the slider and how it scales on small devices. The &quot;500&quot; value is the max height, &quot;2.35&quot; is the aspect ratio.<td></tr><tr><td class="option">data-orig-width</td><td class="value">Original width of the caption area, if slider size is reduced because of a smaller viewport (for example on tablets/phones), the caption area will be scaled down accordingly. For this to work, the slider has to know the width for which caption have been originally designed. (see next section for how to add captions)<td></tr><tr><td class="option">data-orig-height</td><td class="value">Same as the previous, controls caption area height.<td></tr></table>
+<h2><a name="sec6_3">6.3</a> Slider - Caption Layers</h2>
+<br/>
+Each slide can have an optional caption area which is made of one or several text or image layers. Each layer can be independently controlled in terms of position, timing and transition. A caption area can be added to a slide like this:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">data-delay=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+<br/>
+    <span class="c">&lt;!-- background image --&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/940x460.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/gallery/19-940x460.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;940&quot;</span> <span class="na">height=</span><span class="s">&quot;460&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+<br/>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaption&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- LAYER ITEMS --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec6_4">6.4</a> Slider - Caption Layer, Text</h2><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer&quot;</span><span class="nt">&gt;</span>
+    YOUR TEXT HERE<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec6_5">6.5</a> Slider - Caption Layer, Image</h2><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/207x302.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/slider/slide1/slide5_woman.png&quot;</span> <span class="na">width=</span><span class="s">&quot;207&quot;</span> <span class="na">height=</span><span class="s">&quot;302&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec6_6">6.6</a> Slider - Caption Layer, Position</h2>
+<br/>
+By default, each layer is positioned to at 0,0 which means top/left corner of the caption area. When using layers in the same slide however, you may want to alter their position so that they would not stack on top of each other. To control layer position, x,y parameters can be used as follow:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer&quot;</span> <span class="na">data-x=</span><span class="s">&quot;50&quot;</span> <span class="na">data-y=</span><span class="s">&quot;80&quot;</span><span class="nt">&gt;</span>
+    TEXT HERE<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-x</td><td class="value">Left margin in the format of number of pixels.<td></tr><tr><td class="option">data-y</td><td class="value">Top margin the format of number of pixels.<td></tr></table>
+<h2><a name="sec6_7">6.7</a> Slider - Caption Layer, Timing</h2>
+<br/>
+Having multiple layers in the same slide doesn&#39;t mean you&#39;re forced to display all of them at the same time. You can add an additional delay parameter which controls when the layers will become visible.<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer&quot;</span> <span class="na">data-delay=</span><span class="s">&quot;2.1&quot;</span><span class="nt">&gt;</span>
+    DELAYED TEXT LAYER<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-delay</td><td class="value">Number of seconds to wait before showing the layer<td></tr></table>
+<h2><a name="sec6_8">6.8</a> Slider - Caption Layer, Transition</h2>
+<br/>
+For each layer, you can customize the transition type and its duration<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer&quot;</span> <span class="na">data-duration=</span><span class="s">&quot;.5&quot;</span> <span class="na">data-transition=</span><span class="s">&quot;rotateIn&quot;</span><span class="nt">&gt;</span>
+    ROTATE IN TEXT<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-duration</td><td class="value">Transition duration in seconds.<td></tr><tr><td class="option">data-transition</td><td class="value">All transition included in animate.css are supported.<br/>
+<br>
+<a href="http://daneden.me/animate/" rel="nofollow">Description and demo of each transition here</a><td></tr></table>
+<h2><a name="sec6_9">6.9</a> Slider - Caption Layer, All Parameters</h2>
+<br/>
+Here&#39;s a list of all the supported parameters.<br/>
+<br>
+<table><tr><td class="option">data-x</td><td class="value">Left margin in the format of number of pixels.<td></tr><tr><td class="option">data-y</td><td class="value">Top margin the format of number of pixels.<td></tr><tr><td class="option">data-delay</td><td class="value">Number of seconds to wait before showing the layer<td></tr><tr><td class="option">data-duration</td><td class="value">Transition duration in seconds.<td></tr><tr><td class="option">data-transition</td><td class="value">All transition included in animate.css are supported..<br/>
+<br>
+<a href="http://daneden.me/animate/" rel="nofollow">Description and demo of each transition here</a>
+<br/>
+<br>
+<i>bounce</i>
+<br/>
+<i>bounceIn</i>
+<br/>
+<i>bounceInDown</i>
+<br/>
+<i>bounceInLeft</i>
+<br/>
+<i>bounceInRight</i>
+<br/>
+<i>bounceInUp</i>
+<br/>
+<i>bounceOut</i>
+<br/>
+<i>bounceOutDown</i>
+<br/>
+<i>bounceOutLeft</i>
+<br/>
+<i>bounceOutRight</i>
+<br/>
+<i>bounceOutUp</i>
+<br/>
+<i>fadeIn</i>
+<br/>
+<i>fadeInDownBig</i>
+<br/>
+<i>fadeInDown</i>
+<br/>
+<i>fadeInLeftBig</i>
+<br/>
+<i>fadeInLeft</i>
+<br/>
+<i>fadeInRightBig</i>
+<br/>
+<i>fadeInRight</i>
+<br/>
+<i>fadeInUpBig</i>
+<br/>
+<i>fadeInUp</i>
+<br/>
+<i>fadeOut</i>
+<br/>
+<i>fadeOutDownBig</i>
+<br/>
+<i>fadeOutDown</i>
+<br/>
+<i>fadeOutLeftBig</i>
+<br/>
+<i>fadeOutLeft</i>
+<br/>
+<i>fadeOutRightBig</i>
+<br/>
+<i>fadeOutRight</i>
+<br/>
+<i>fadeOutUpBig</i>
+<br/>
+<i>fadeOutUp</i>
+<br/>
+<i>flash</i>
+<br/>
+<i>flip</i>
+<br/>
+<i>flipInX</i>
+<br/>
+<i>flipInY</i>
+<br/>
+<i>flipOutX</i>
+<br/>
+<i>flipOutY</i>
+<br/>
+<i>hinge</i>
+<br/>
+<i>lightSpeedIn</i>
+<br/>
+<i>lightSpeedOut</i>
+<br/>
+<i>pulse</i>
+<br/>
+<i>rollIn</i>
+<br/>
+<i>rollOut</i>
+<br/>
+<i>rotateIn</i>
+<br/>
+<i>rotateInDownLeft</i>
+<br/>
+<i>rotateInDownRight</i>
+<br/>
+<i>rotateInUpLeft</i>
+<br/>
+<i>rotateInUpRight</i>
+<br/>
+<i>rotateOut</i>
+<br/>
+<i>rotateOutDownLeft</i>
+<br/>
+<i>rotateOutDownRight</i>
+<br/>
+<i>rotateOutUpLeft</i>
+<br/>
+<i>rotateOutUpRight</i>
+<br/>
+<i>shake</i>
+<br/>
+<i>swing</i>
+<br/>
+<i>tada</i>
+<br/>
+<i>wiggle</i>
+<br/>
+<i>wobble</i>
+<td></tr></table>
+<h2><a name="sec6_10">6.10</a> Slider - Caption Layer, Styling</h2>
+<br/>
+You can add additional classes to each layer to control its style, for instance<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer pe-caption-small pe-caption-background&quot;</span><span class="nt">&gt;</span>
+    TEXT HERE<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<table><tr><td class="option">pe-caption-small</td><td class="value">Small text size.<td></tr><tr><td class="option">pe-caption-medium</td><td class="value">Medium text size.<td></tr><tr><td class="option">pe-caption-large</td><td class="value">Largest text size.<td></tr><tr><td class="option">pe-caption-background</td><td class="value">Adds a color background (main template color).<td></tr><tr><td class="option">pe-caption-color</td><td class="value">Adds the main template color to the caption.<td></tr></table>For more advanced usage, you can also include custom styling<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;peCaptionLayer pe-caption-small&quot;</span> <span class="na">style=</span><span class="s">&quot;color:#666; font-weight:600; font-size:12px;&quot;</span><span class="nt">&gt;</span>
+    TEXT HERE<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h1><a name="sec7_0">7</a> Carousel<a class="top" href="#toc">top</a></h1>The carousel component is used to scroll through horizontally arranged items. This component requires the width of the items to be entered. This will determine the number of items shown on the desktop resolution. The component is fully responsive and will decide itself how many are shown at smaller resolutions. The following markup is required for this element:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span10&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3&gt;</span>Carousel Title <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;subtitle&quot;</span><span class="nt">&gt;</span>Subtitle<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<br>
+    <span class="c">&lt;!--carousel controls--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;carousel-nav&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;prev-btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-left-open&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;next-btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-right-open&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<br/>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid carouselBox&quot;</span> <span class="na">data-slidewidth=</span><span class="s">&quot;350&quot;</span><span class="nt">&gt;</span>                
+<br/>
+    <span class="c">&lt;!-- CAROUSEL ITEMS --&gt;</span>
+<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<b>Parameter List</b>
+<br/>
+<table><tr><td class="option">data-slidewidth</td><td class="value">This parameter is required to determine how many carousel items are shown on the default desktop resolution. This figures represents the width on one carousel item and the following values may be used<br/>
+<b>940</b>- 1 item<br/>
+<b>350</b>- 2 items<br/>
+<b>314</b> - 3 items<br/>
+<b>240</b> - 4 items<br/>
+<b>180</b> - 5 items<td></tr></table>
+<h2><a name="sec7_1">7.1</a> Carousel - Item</h2>
+<br/>
+A carousel item has the following structure:<div class="highlight"><pre><span class="nt">&lt;div&gt;</span>                    
+    <span class="nt">&lt;div&gt;</span>
+<br/>
+        <span class="c">&lt;!-- CAROUSEL ITEM CONTENT --&gt;</span>
+<br/>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+The &quot;Content&quot; part can be different, here are some examples:<div class="highlight"><pre><span class="c">&lt;!-- Art Quotations Carousel Item Content from page elements2.html --&gt;</span>
+<span class="nt">&lt;h2&gt;</span>&quot;A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing&quot;<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;cite&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;accent&quot;</span><span class="nt">&gt;</span>George Bernard Shaw<span class="nt">&lt;/span&gt;</span>, Playwright.<span class="nt">&lt;/cite&gt;</span>
+</pre></div>
+<div class="highlight"><pre><span class="err">&lt;</span>-- Video Carousel Item Content from page elements2.html --&gt;<br/>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.youtube.com/watch?v=S-DiWJ9TzNw&quot;</span> <span class="na">class=</span><span class="s">&quot;peVideo&quot;</span><span class="nt">&gt;&lt;/a&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;info&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h5&gt;</span>YouTube Inline Video<span class="nt">&lt;/h5&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<div class="highlight"><pre><span class="c">&lt;!-- Related Project Carousel Item Content from project pages --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;project-item&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;over-effect&quot;</span> <span class="na">href=</span><span class="s">&quot;project-gallery.html&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/blank/420x372.gif&quot;</span> <span class="na">class=</span><span class="s">&quot;peLazyLoading&quot;</span> <span class="na">data-original=</span><span class="s">&quot;img/content/project/01-420x372.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;420&quot;</span> <span class="na">height=</span><span class="s">&quot;372&quot;</span> <span class="na">alt=</span><span class="s">&quot;alt text&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;h6&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;project-gallery.html&quot;</span><span class="nt">&gt;</span>Lorem Ipsum Dolor<span class="nt">&lt;/a&gt;&lt;/h6&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Dipiscing elit donec odio quisque.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec7_2">7.2</a> Carousel - Gallery From Hidden Items</h2>
+<br/>
+You can include items in a gallery which are not displayed on the page. To do this simply make sure the initial item in the gallery is shown on the page as normal, then create a div in the page somewhere, add a class of <b>.hiddenLightboxContent</b> to this div element. This class will hide the content placed inside this div but provided you use the same <i>data-flare-gallery=&quot;galleryname&quot;</i> as the displayed item, they will be added to that gallery.<div class="highlight"><pre><span class="c">&lt;!--displayed item--&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span> 
+   <span class="na">data-flare-gallery=</span><span class="s">&quot;HiddenGallery&quot;</span> 
+   <span class="na">href=</span><span class="s">&quot;01.jpg&quot;</span><span class="nt">&gt;</span>
+Image 1<span class="nt">&lt;/a&gt;</span>
+<br/>
+<br>
+<span class="c">&lt;!--hidden items--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;hiddenLightboxContent&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+   <span class="na">data-flare-gallery=</span><span class="s">&quot;HiddenGallery&quot;</span> 
+   <span class="na">href=</span><span class="s">&quot;02.jpg&quot;</span><span class="nt">&gt;</span>
+Image 2<span class="nt">&lt;/a&gt;</span>
+<br/>
+<span class="nt">&lt;a</span> <span class="na">data-target=</span><span class="s">&quot;flare&quot;</span>
+   <span class="na">data-flare-gallery=</span><span class="s">&quot;HiddenGallery&quot;</span> 
+   <span class="na">href=</span><span class="s">&quot;03.jpg&quot;</span><span class="nt">&gt;</span>
+Image 3<span class="nt">&lt;/a&gt;</span>
+<br/>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h1><a name="sec8_0">8</a> Pricing Tables<a class="top" href="#toc">top</a></h1>A pricing table is made of several columns &amp; has the following structure<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid pricing-table four-col&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col row-titles&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- LABEL COLUMN --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col low&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- PRICING COLUMN --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col high&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- PRICING COLUMN --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col&quot;</span><span class="nt">&gt;</span>
+        <span class="c">&lt;!-- PRICING COLUMN --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<table><tr><td class="option">table class</td><td class="value">Controls table layout and the following values can be used<br/>
+<b>four-col</b>- 4 columns<br/>
+<b>three-col</b>- 3 columns<td></tr></table>The &quot;label column&quot; is optional and can be skipped, the &quot;low&quot; and &quot;high&quot; classes added to a column container are also optional, their purpose is to slightly change the style applied to the column.<br/>
+<br>
+<br/>
+<h2><a name="sec8_1">8.1</a> Pricing Tables - Column</h2>
+<br/>
+A pricing column has the following structure<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;wrap-inner&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;head&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3&gt;</span>Starter Pack<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h4&gt;</span>$2.99<span class="nt">&lt;/h4&gt;</span>
+        <span class="nt">&lt;span&gt;</span>Per Min<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;</span>Ivy Bridge<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>Xenon E3<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>32GB<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>4 Cores<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>Free Setup<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;foot&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span><span class="nt">&gt;</span>Download Now<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h1><a name="sec9_0">9</a> Forms<a class="top" href="#toc">top</a></h1>
+<h2><a name="sec9_1">9.1</a> Forms - Contact / Quotation</h2>
+<br/>
+To set up the contact and quotation forms you need to make a couple of simple changes to the <i>contact.php</i> file which is located in the <i>php</i> folder. Open this file with any standard code editor and you will see the following code in the first few lines of the file.<div class="highlight"><pre>// CUSTOMIZATION START<br/>
+<br>
+$to = &quot;youremail@yourdomain.com&quot;;  // insert your contact email address here<br/>
+$subject = &quot;Contact Form Subject Message&quot;;  // this will be the subject line 
+<br/>
+// CUSTOMIZATION END<br/>
+</pre></div>
+The above 2 lines are the only things which need to be changed in this php file. Simply insert your own email address into the first line. This will be the address to which all submitted contact and quotation form messages are sent. The phrase entered in the second line will be the subject line of the emails received from these forms. This allows you to enter a keyword which you can then use in your email client to automatically filter these emails into a separate folder for example.<div class="note">The contact form in the BigWig template requires PHP files to function. This means that your files will need to be on a server before the form will work properly. Additionally your server will need to support PHP, which is not the case with Microsoft .ASP servers.</div>
+<h2><a name="sec9_2">9.2</a> Forms - Contact, Google Maps</h2>
+The gmap section can be found in the contact page and uses the following markup<div class="highlight"><pre><span class="c">&lt;!-- gmaps--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid pe-block&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12 gmapWrap&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;gmaps&quot;</span> <span class="na">class=</span><span class="s">&quot;gmap&quot;</span> <span class="na">data-latitude=</span><span class="s">&quot;51.50813&quot;</span> <span class="na">data-longitude=</span><span class="s">&quot;-0.12801&quot;</span> <span class="na">data-title=</span><span class="s">&quot;Custom Title Here&quot;</span> <span class="na">data-zoom=</span><span class="s">&quot;12&quot;</span> <span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;description&quot;</span><span class="nt">&gt;</span>Custom Description Here<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!--end gmaps --&gt;</span>
+</pre></div>
+The above creates a map and centers it to the given coordinates (latitude/longitude), you can easily find the latitude &amp; longitude of any address using the following page:<br/>
+<a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm" rel="nofollow">http://universimmedia.pagesperso-orange.fr/geo/loc.htm</a>. A marker is also shown on the map, clicking on it will display the content of description div.<br/>
+<br>
+<b>Parameter / Value Explanation</b>
+<br/>
+<table><tr><td class="option">data-latitude, data-longitude</td><td class="value">Coordinates of the location to center the map<td></tr><tr><td class="option">zoom</td><td class="value">The default zoom level of the displayed map<td></tr><tr><td class="option">data-title</td><td class="value">The title shown in a tooltip when the user hovers the place marker on the map. For the description shown on the marker&#39;s popup (once clicked) see the &quot;description&quot; tag in the above markup.<td></tr></table>
+<h2><a name="sec9_3">9.3</a> Forms - Newsletter Widget</h2>
+<br/>
+The BigWig template contains a working newsletter widget. Email addresses entered into this widget will be sent to an address entered into the &quot;newsletter.php&quot; file, found in the &quot;php&quot; folder in the root package. Just like in the above contact.php file the following edits are to be made in this &quot;newsletter.php&quot; file:<div class="highlight"><pre>// CUSTOMIZATION START<br/>
+<br>
+$subscribe = &quot;youremail@yourdomain.com&quot;;  // insert your subscribe email address here<br/>
+<br>
+<br/>
+// CUSTOMIZATION END<br/>
+</pre></div>
+The subscribe email address can be your own email address, meaning you would need to manually add subscriber&#39;s email address to your email list. Alternatively the address you enter here could be an auto sign-up address for your email list service.<div class="note">You will notice an unsubscribe email address field in this php file also, however in this case this function is unused and this can be ignored. Unsubscribing will be handled by your email list provider who will add an unsubscribe link to each one of your newsletters.</div>
+<h1><a name="sec10_0">10</a> Blog<a class="top" href="#toc">top</a></h1>The BigWig template is a static HTML template and not driven by a content management system (CMS). This means that the blog section of the template will not function like that of a WordPress Theme for example. Some parts, such as comments, widgets etc will not work at all, while other parts such as posts will need to be inserted, linked and managed manually. Managing these elements manually is only feasible for a small amount of content, so if you are looking for a full featured dynamic blog, we recommend that you buy a CMS theme. At the time of writing, a WordPress version of BigWig is not yet available, but we plan to begin working on it in the near future. You can sign up for email updates and we will let you know when it&#39;s released. <a href="http://pixelentity.com/signup-for-pixelentity-email-updates/" rel="nofollow">Pixelentity Email Updates</a>
+<br/>
+<br>
+<br/>
+<h2><a name="sec10_1">10.1</a> Blog - Adding Posts</h2>
+<br/>
+To add a post, use the following markup:<div class="highlight"><pre><span class="c">&lt;!--new post--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;post&quot;</span><span class="nt">&gt;</span>
+                <span class="c">&lt;!--post titles--&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12 post-title&quot;</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;h1&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;blog_post.php&quot;</span><span class="nt">&gt;</span>Post With Featured Image<span class="nt">&lt;/a&gt;&lt;/h1&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
+<br>
+                <span class="c">&lt;!--meta--&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;comments&quot;</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">title=</span><span class="s">&quot;comments&quot;</span><span class="nt">&gt;</span>14<span class="nt">&lt;/a&gt;</span>
+                            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/skin/meta_comments_icon.png&quot;</span> <span class="na">alt=</span><span class="s">&quot;comments&quot;</span> <span class="nt">/&gt;</span>
+                        <span class="nt">&lt;/div&gt;</span>
+                        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;post-meta&quot;</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;user&quot;</span><span class="nt">&gt;</span>By <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span> Daniel Fao<span class="nt">&lt;/a&gt;&lt;/span&gt;</span>
+                            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;date&quot;</span><span class="nt">&gt;</span>Posted on feb 05 2011<span class="nt">&lt;/span&gt;</span>
+                            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;categories&quot;</span><span class="nt">&gt;</span>in <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>architecture<span class="nt">&lt;/a&gt;</span>, <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>featured posts<span class="nt">&lt;/a&gt;&lt;/span&gt;</span>
+                        <span class="nt">&lt;/div&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>    
+<br>
+                <span class="c">&lt;!--Post Media (Image / Video / Slider)- In this example - Image--&gt;</span>
+<br/>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+<br>
+                    <span class="c">&lt;!-- SEE MEDIA SECTION FOR CONTENT --&gt;</span>
+<br/>
+                <span class="nt">&lt;/div&gt;</span>
+<br>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;p&gt;</span>
+<br/>
+                            <span class="c">&lt;!--Post Excerpt Text Goes Here--&gt;</span>
+<br/>
+                        <span class="nt">&lt;/p&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;post.html&quot;</span> <span class="na">class=</span><span class="s">&quot;read-more&quot;</span><span class="nt">&gt;</span>read more<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
+<br>
+            <span class="nt">&lt;/div&gt;</span>
+<br>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!--end post--&gt;</span>
+</pre></div>
+The above markup shows a basic post block. The media section of the post block can hold an Image, Video or Slider. The above example shown an image. See the slider/video sections for the markup required for the other items.<br/>
+<h1><a name="sec11_0">11</a> Twitter Bootstrap<a class="top" href="#toc">top</a></h1>The BigWig template is based on the Twitter Bootstrap Framework and hence some of the widgets contained in that framework are also available in the BigWig template. This section will describe those widgets and provide examples on how to use them.<br/>
+<br>
+<br/>
+<h2><a name="sec11_1">11.1</a> Twitter Bootstrap - Tabs</h2>
+Tabs can be added using the following markup<div class="highlight"><pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;nav nav-tabs&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;active&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#home&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;tab&quot;</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#profile&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;tab&quot;</span><span class="nt">&gt;</span>Profile<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#messages&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;tab&quot;</span><span class="nt">&gt;</span>Messages<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#settings&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;tab&quot;</span><span class="nt">&gt;</span>Settings<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+<br/>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;tab-content&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;tab-pane active&quot;</span> <span class="na">id=</span><span class="s">&quot;home&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;tab-pane&quot;</span> <span class="na">id=</span><span class="s">&quot;profile&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;tab-pane&quot;</span> <span class="na">id=</span><span class="s">&quot;messages&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;tab-pane&quot;</span> <span class="na">id=</span><span class="s">&quot;settings&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+The <i>ul</i> section defines tab headers, <i>active</i> class selects the default opened tab. Each link must have <i>data-toggle</i> attribute set to <i>tab</i> and <i>href</i> pointing to a unique anchor. Tab content goes into a <i>div</i> placed right after the <i>ul</i>, each unique anchor sets in there must have a related <i>div</i> placed in content section where div id = anchor. 
+<br/>
+<br>
+<h2><a name="sec11_2">11.2</a> Twitter Bootstrap - Accordions</h2>
+Accordions can be added using the following markup<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;accordion2&quot;</span> <span class="na">class=</span><span class="s">&quot;accordion&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-group&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-heading&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;accordion-toggle&quot;</span> <span class="na">href=</span><span class="s">&quot;#collapseOne&quot;</span> <span class="na">data-parent=</span><span class="s">&quot;#accordion2&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;collapse&quot;</span><span class="nt">&gt;</span>Heading 01 <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;collapseOne&quot;</span> <span class="na">class=</span><span class="s">&quot;accordion-body collapse&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-inner&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet dapibus id<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-group&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-heading&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;accordion-toggle&quot;</span> <span class="na">href=</span><span class="s">&quot;#collapseTwo&quot;</span> <span class="na">data-parent=</span><span class="s">&quot;#accordion2&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;collapse&quot;</span><span class="nt">&gt;</span>Heading 02 <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;collapseTwo&quot;</span> <span class="na">class=</span><span class="s">&quot;accordion-body collapse&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-inner&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet nullam mollis <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-group&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-heading&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;accordion-toggle&quot;</span> <span class="na">href=</span><span class="s">&quot;#collapseThree&quot;</span> <span class="na">data-parent=</span><span class="s">&quot;#accordion2&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;collapse&quot;</span><span class="nt">&gt;</span>Heading 03 <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;collapseThree&quot;</span> <span class="na">class=</span><span class="s">&quot;accordion-body in collapse&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;accordion-inner&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet nisi neque<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+Like in the previous tabs example, for each accordion entry we have 2 sections: <i>accordion-heading</i> defines the title and includes a link to the related <i>accordion-body</i> which holds the content. The anchor set in heading must match the <i>id</i> of the content-section. Additionally, each accordion entry must reference its parent container <i>id</i> in the <i>data-parent</i> attribute.<br/>
+<br>
+<br/>
+<h2><a name="sec11_3">11.3</a> Twitter Bootstrap - Share buttons</h2>
+You can easily add share/like buttons for most common social network using simple markup:<div class="highlight"><pre><span class="c">&lt;!--tweet this button--&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;share twitter&quot;</span><span class="nt">&gt;&lt;/button&gt;</span>
+<br/>
+<span class="c">&lt;!--pinterest button--&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;share pinterest&quot;</span><span class="nt">&gt;&lt;/button&gt;</span>
+<br/>
+<span class="c">&lt;!--google plus 1 button--&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;share google&quot;</span><span class="nt">&gt;&lt;/button&gt;</span>
+<br/>
+<span class="c">&lt;!--facebook like btn--&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;share facebook&quot;</span><span class="nt">&gt;&lt;/button&gt;</span>
+</pre></div>
+<div class="note">On any one page only one of each button may be used. Therefore for example instead of using them on the main blog page, just use them on the blog post pages. Or instead of using them on the portfolio page, use them on the single project pages.</div>
+<h2><a name="sec11_4">11.4</a> Twitter Bootstrap - FAQs</h2>
+The faq page lets you easily create a list of Frequently Asked Questions: each faq can be set to be opened or closed by default using the <i>in &amp; collapse</i> classes. When adding/editing faqs, make sure the <i>data-target</i> attribute in the heading sections matches the value of <i>id</i> attribute in the body section<div class="highlight"><pre><span class="c">&lt;!-- OPENED FAQ --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq-heading&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">data-target=</span><span class="s">&quot;#faq1&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;collapse&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-question-sign&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+            Opened Question 01<br/>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq-body in&quot;</span> <span class="na">id=</span><span class="s">&quot;faq1&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq-inner&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Text goes here<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!--END FAQ ITEM--&gt;</span>
+</pre></div>
+<div class="highlight"><pre><span class="c">&lt;!-- CLOSED FAQ --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq-heading&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">data-target=</span><span class="s">&quot;#faq2&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;collapse&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-question-sign&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+            Closed Question 02<br/>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq-body collapse&quot;</span> <span class="na">id=</span><span class="s">&quot;faq3&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;faq-inner&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Text goes here<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec11_5">11.5</a> Twitter Bootstrap - Responsive Framework</h2>
+<br/>
+The BigWig theme is built upon a responsive framework called Twitter Bootstrap The base framework is well documented and you can find the link below.This documentation may be useful to the advanced users who will want to customize BigWig&#39;s php files.<br/>
+<br>
+<br/>
+<b>Useful links:</b>
+<br/>
+Twitter Bootstrap Homepage<br/>
+<a href="http://twitter.github.com/bootstrap/index.html" rel="nofollow">http://twitter.github.com/bootstrap/index.html</a>
+<br/>
+Twitter Bootstrap Fluid Grid<br/>
+<a href="http://twitter.github.com/bootstrap/scaffolding.html#fluidGridSystem" rel="nofollow">http://twitter.github.com/bootstrap/scaffolding.html#fluidGridSystem</a>
+<br/>
+Twitter Bootstrap Base CSS<br/>
+<a href="http://twitter.github.com/bootstrap/base-css.html" rel="nofollow">http://twitter.github.com/bootstrap/base-css.html</a>
+<br/>
+Twitter Bootstrap Built-in Components<br/>
+<a href="http://twitter.github.com/bootstrap/components.html" rel="nofollow">http://twitter.github.com/bootstrap/components.html</a>
+<br/>
+Twitter Bootstrap Included JavaScript Plugins<br/>
+<a href="http://twitter.github.com/bootstrap/javascript.html" rel="nofollow">http://twitter.github.com/bootstrap/javascript.html</a>
+<br/>
+<br>
+<div class="alert">Please be aware that this framework contains some functionality which will not be available in the BigWig template. </div>
+<h1><a name="sec12_0">12</a> BigWig<a class="top" href="#toc">top</a></h1>
+<h2><a name="sec12_1">12.1</a> BigWig - The Fluid Grid</h2>
+<br/>
+BigWig is a fully responsive template, this means that no matter what device a visitor is viewing your website on, the contents and the site layout will adjust to suit that devices default screen resolution. The default layout width of the BigWig template&#39;s fixed width pages are based on a maximum width of 940px. This will automatically remain centered on large resolution screens.The non-fixed width pages will simply expand to occupy the available space.<br/>
+<br>
+The fluid grid system uses percents for column widths instead of fixed pixels. The grid is a 12 column base CSS grid. A new row in the grid is denoted by the <i>row-fluid</i> class name while the width of a column or columns are denoted by a <i>span#</i> class name, where <i>#</i> represents a number of columns to span out of the base 12. So for example if you would like a div element to be half the width of its container you would use the following:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span6&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+So following on from the above, the markup required for 2 column layout each column being half the size of its container, would be as follows:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span6&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+ <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span6&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<div class="note">The total span number of columns inside one <i>row-fluid</i> element is 12. Also if the containing <i>row-fluid</i> element itself is wrapped by a div which only has a span of 6 columns, the max total span number of the columns is still 12. The reason for this is because the span number doesn&#39;t represent a fixed number of pixels but a percentage or ratio width. Therefore a wrapping div with span6 which contains a nested div with span6 would simply mean that the nested column would be 50% of its containing element, which in this case is a div of span6.</div>Here is an example of the markup required for nesting columns in the fluid grid:<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span12&quot;</span><span class="nt">&gt;</span>
+   Level 1 of column<br/>
+   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row-fluid&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span6&quot;</span><span class="nt">&gt;</span>Level 2<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;span6&quot;</span><span class="nt">&gt;</span>Level 2<span class="nt">&lt;/div&gt;</span>
+   <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+ <span class="nt">&lt;/div&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec12_2">12.2</a> BigWig - Responsive Layout</h2>
+<br/>
+BigWig CSS works by detecting the resolution of the device which is viewing the website and then based on its size it serves up CSS styles specific to that resolution. The following table represents the supported devices their resolutions and the resulting column widths/layout.<br/>
+<br>
+<table><tr><td class="option">Smartphones</td><td class="value"><b>Resolution:</b> 480px and below. <b>Column Width:</b> 280px<td></tr><tr><td class="option">Smartphones to Tablets</td><td class="value"><b>Resolution:</b> 481px to 767px. <b>Column Width:</b> 420px<td></tr><tr><td class="option">Portrait Tablets</td><td class="value"><b>Resolution:</b> 768px to 979px. <b>Column Width:</b> 42px<td></tr><tr><td class="option">Desktop/Laptop</td><td class="value"><b>Resolution:</b> 980px and above. <b>Column Width:</b> 60px<td></tr></table>The CSS monitors the current device resolution using a technique called <b>Media Queries</b>. This is done inside the CSS stylesheet and looks like the following:<div class="highlight"><pre><span class="o">//</span> <span class="nt">Landscape</span> <span class="nt">phones</span> <span class="nt">and</span> <span class="nt">down</span>
+    <span class="k">@media</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">480px</span><span class="o">)</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
+<br>
+    <span class="o">//</span> <span class="nt">Landscape</span> <span class="nt">phone</span> <span class="nt">to</span> <span class="nt">portrait</span> <span class="nt">tablet</span>
+    <span class="k">@media</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">767px</span><span class="o">)</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
+<br>
+    <span class="o">//</span> <span class="nt">Portrait</span> <span class="nt">tablet</span> <span class="nt">to</span> <span class="nt">landscape</span> <span class="nt">and</span> <span class="nt">desktop</span>
+    <span class="k">@media</span> <span class="o">(</span><span class="nt">min-width</span><span class="o">:</span> <span class="nt">768px</span><span class="o">)</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">979px</span><span class="o">)</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
+<br>
+    <span class="o">//</span> <span class="nt">Large</span> <span class="nt">desktop</span>
+    <span class="k">@media</span> <span class="o">(</span><span class="nt">min-width</span><span class="o">:</span> <span class="nt">1200px</span><span class="o">)</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
+</pre></div>
+<div class="note">All of the styles specific to a certain resolution are nested inside that specific media query (where the {...} occurs above. This means that if you wish to edit the CSS styles for a specific device layout, you will need to do so by locating the correct media query and editing only the CSS nested within it. Also note that the &quot;large desktop&quot; media query is not used in this template.</div>
+<h2><a name="sec12_3">12.3</a> BigWig - Fonts</h2>
+<br/>
+The BigWig theme uses Google web fonts by default. These fonts are as follows:<br/>
+<br>
+<table><tr><td class="option">Body, Paragraph, Titles/Headings</td><td class="value">Open Sans with a fallback system font of Arial<td></tr></table>If you wish to make changes to these fonts you have the following options:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Insert any Google Web font by replacing all references to the old one in the CSS file (Ensure not using compressed CSS or else you will not see your changes in the browser). 
+	</li>
+	<li>If the new Google Font you have specified uses specific font-weight values, you will also need to add/change the existing ones in the CSS.</li>
+</ol>
+<b>Icon Font</b>
+<br/>
+The BigWig template also contains an icon font named &quot;Entypo&quot;. This can be found here: <a href="http://www.entypo.com/" rel="nofollow">http://www.entypo.com/</a>. Using icon fonts means that icon sizes and colors may be changed using CSS parameters like &quot;font-size&quot; and &quot;color&quot; and what&#39;s more, there is no loss of image quality at larger sizes.<br/>
+<br>
+<b>Inserting an icon using the icon font</b>
+<br/>
+The markup below is all you need to insert an icon. Simply change the class name to change the icon. Wrap the markup below in an anchor tag or a link, to use the icon as a button.<div class="highlight"><pre><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-twitter-circled&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+</pre></div>
+<div class="note">Icons are inserted using class names. To see a list of these class names and their associated icons, open the file in the root directory named <b>icon_font_reference.html</b></div>
+<h2><a name="sec12_4">12.4</a> BigWig - Custom CSS, Finding</h2>
+<br/>
+The main stylesheets for this template can be found in the css folder in the root package. The main stylesheet is named <i>style.css</i>. This template uses compressed CSS stylesheets (minified) in order to save on page loading times, and so if you wish to customize the CSS you will need to follow the guide below. Before you change an element&#39;s style you will first need to know what CSS rule that specific element is using to acquire its styles and then you can use that same rule to override those styles with your own. See the next section for instruction on how to find this information.<br/>
+<br>
+In the past we have had many support questions from buyers asking how to locate the CSS style statements which control the CSS for a specific element in the theme. So in response we have written this short section describing how to locate the correct CSS file and the exact line of code. Basically there are several options but here we will outline 2 of the easiest.<br/>
+<br>
+<b>1- Use FireBug Firefox Add-on</b>
+<br/>
+This is a very handy little add on for the Firefox browser which can be found here <a href="https://addons.mozilla.org/en-US/firefox/addon/firebug/" rel="nofollow">https://addons.mozilla.org/en-US/firefox/addon/firebug/</a>. Once installed, using the right mouse button whilst hovering over any item in the browser&#39;s main page area will bring up a context menu with the option <i>Inspect Element</i> shown at the bottom of the list. Clicking this option will open a window at the bottom of your browser. As standard this window will show the HTML structure on the left and the CSS styles on the right as they specifically pertain to the item over which you were hovering when you right clicked in the beginning. On the right side CSS panel the rules are in a scrollable list, the upper most rules being those greatest in  hierarchy when it comes to applying the resulting style information to the item. On the right hand side of this panel inline with each individual CSS selector you will see a filename and a line reference number. With this information you can find the exact file and the exact line on which to change this element&#39;s CSS.<br/>
+<br>
+<b>2- Google Chrome Browser</b>
+<br/>
+Like with Firebug the Google Chrome browser has similar element inspecting capabilities but in this case they are baked right into the browser itself and so no separate add-on is required. As described above the element selecting and inspecting process is the exact same, with the CSS stylesheet and exact line reference being easily accessible in the bottom right CSS styles panel. if you are a Chrome user, perhaps this method is more convenient for you.<div class="note">Most modern browsers currently have a similar element inspector. Opera &amp; Safari have a native version which can usually be accessed using a right click like Chrome. IE9 also has something similar but it need to be turned on first by clicking F12 key. To select element you then need to use the selector tool (arrow symbol).</div>
+<h2><a name="sec12_5">12.5</a> BigWig - Custom CSS, Altering (Simple Version)</h2>
+<br/>
+The following method can be used to modify the template&#39;s CSS styles. This method is only recommended when the CSS modifications are light and few in number, as overuse of internal CSS is contrary to best practices of CSS. The advantages of this method is that you do not need to touch the compressed stylesheets. To use this simple method, the following <i>style</i> tags need to be placed inside the <b>head section</b> of each HTML page in which you required the changes to appear. Then inside of these <i>style</i> tags, CSS selectors can be placed as normal.<div class="highlight"><pre><span class="c">&lt;!-- modified CSS --&gt;</span>
+<span class="nt">&lt;style&gt;</span>
+    <span class="nc">.taglineWrap</span><span class="p">{</span>
+        <span class="k">background</span><span class="o">:</span><span class="m">#eee</span><span class="p">;</span>
+        <span class="k">border-bottom</span><span class="o">:</span><span class="m">1px</span> <span class="k">solid</span> <span class="m">#ddd</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+</pre></div>
+Shown above is an example CSS selector to change the color of an element&#39;s background. To find out what kind of selectors are required to target a specific element in the template, refer to the previous section.<div class="note">NOTE: Sometimes when using the above method for CSS modification, if a CSS style modification does not result in the expected style change even though the CSS selector syntax is correct, you may need to use the <b>!important</b> keyword in your CSS rules. This sill ensure the default rules are overwritten.</div>
+<h2><a name="sec12_6">12.6</a> BigWig - Custom CSS, Altering (Advanced)</h2>
+<br/>
+If you are intending to create a new skin for the template or if you wish to alter some of the existing CSS styles, a few things should be noted. For the purposed of page load speed the BigWig template uses compressed CSS stylesheets and Javascript. This means that instead of individually loading a separate stylesheet for different elements, the CSS stylesheets have been compressed into one file which is loaded by BigWig hence saving time with only one HTTP request. The consequences of this however is that if any changes are made to the uncompressed stylesheets, these will not be reflected in the compressed version without a re-compression being done. Therefore if you wish to change the css stylesheets you have 2 options.<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li> Use the &quot;uncompressed&quot; version of the template&#39;s files, found in the &quot;alternate&quot; folder in the package root. See the &quot;Alternate&quot; section above for more info.<br/>
+	</li>
+	<li> Create a new stylesheet and insert it after the minimised CSS stylesheet ensuring to use the same or stronger CSS selectors for each rule you wish to overwrite.</li>
+</ol>
+<b>Inserting A New Stylesheet</b><div class="highlight"><pre><span class="c">&lt;!-- compressed stylesheets --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;theme/compressed/template.min.css&quot;</span> <span class="nt">/&gt;</span>
+<br/>
+<span class="c">&lt;!--insert new stylesheet here after the minified original--&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;css/new_style.css&quot;</span> <span class="nt">/&gt;</span>
+</pre></div>
+<b>How the Uncompressed Stylesheets Will look in the head section of the page</b><div class="highlight"><pre><span class="c">&lt;!-- uncompressed stylesheets --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;css/bootstrap.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;css/bootstrap-responsive.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;css/style.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;css/style-responsive.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="nt">/&gt;</span>
+</pre></div>
+<div class="note">The above statements are shown as examples only. The actual paths to the stylesheets should be checked before including in the head section. Check the &quot;uncompressed&quot; version of the template found in the &quot;alternate/uncompressed&quot; folder.</div>
+<h1><a name="sec13_0">13</a> Mobile<a class="top" href="#toc">top</a></h1>BigWig has been optimized to work with Apple&#39;s mobile operating system <i>iOS</i>. The site has been tested on <i>iOS6</i> primarily on the iPad2 and the iPhone 4. To ensure the template works well on iDevices, sometimes the CSS of the template needs to be tweaked or sometimes new rules need to be added to control specific behavior found only on the mobile version of Apple&#39;s Safari browser.<br/>
+<br>
+<br/>
+<h2><a name="sec13_1">13.1</a> Mobile - Rollover Effects</h2>
+<br/>
+Some of the interesting effects used in BigWig are seen or experienced by the user only when rolling over an element using their mouse. However when using a touch screen device such as the iDevices, the rollover state does not feature as prominently. It is still possible to see rollover effects as follows. In Apple&#39;s mobile Safari browser the way to activate a rollover state for an element is by <i>Soft Clicking</i>. This is simply a normal click, but as long as the element being clicked has a rollover state, then this state will be activated and a second click is then needed in order to visit the link or page or whatever is the default action of the link itself.<br/>
+<br>
+Sometimes however, rollover effects have been intentionally switched off in the CSS because they will not function correctly on a touch based device due to the different nature of a touch user interface from that of a mouse based one.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec13_2">13.2</a> Mobile - Android</h2>
+<br/>
+BigWig has been tested on the Android operating system using a Samsung Galaxy Tab 10.1. running the Ice Cream Sandwich version of the OS and also a Samsung Galaxy SII phone. While BigWig is working on these devices, the template requires quite a bit of cpu power to run smoothly and many mobile devices, especially older devices, may see reduced rendering speeds etc. There are some well known bugs in the Android OS relating to video playback. These are a flaw in the default browser of the OS and are not related to the template. Additionally it should be noted that despite having been optimized for Android ICS, this does not mean that this template will work flawlessly on all Android devices. The reasons for this are as follows:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>There are just a vast number of different devices from different manufacturers, out there all running android and all with varying hardware specs. Each manufacturer has also tweaked or skinned the OS in their own way. Consequently it is impossible to perform testing on all such devices and to allow for any slight differences there may be in the way each device renders content.<br/>
+	</li>
+	<li>Manufacturers of Android handsets and tablets are extremely slow in deploying updates to the OS. Consequently there are vast numbers of devices out in the wild which are running an array of different versions of the Android OS. Many of these devices may not have the hardware or software to run the template properly and so its impossible for us to promise full compatibility.</li>
+</ol>
+<div class="note">It is also worth noting that Android users may not enjoy as good an experience browsing this template as iOS users will. This is because at the time of writing the Android operating system does not allow for the experiencing of rollover states as iOS devices do.</div>
+<h1><a name="sec14_0">14</a> Updates<a class="top" href="#toc">top</a></h1>In this section we will list all updates and details of changes made in each update. If you are unsure if the version you are using includes certain updates, refer to this section.<br/>
+<br>
+<b>THERE HAVE BEEN NO UPDATED TO THIS THEME AS YET</b>
+</div>
+		
+		
+		<!--footer section-->
+		<div class="footer">
+			<div class="outro">
+				
+				<!--useful links section-->
+				<div class="links">
+					<span>USEFUL LINKS</span>
+					<ul>
+						<li><a href="http://support.pixelentity.com">Support Forums</a> The fastest way to get help</li>
+						<li><a href="http://pixelentity.com">Pixelentity.com </a> Free PSD Design Resources</li>
+						<li><a href="http://themeforest.net/user/pixelentity/follow">Follow Pixelentity</a> Add our items to your homepage.</li>
+						<li><a href="http://themeforest.net/user/pixelentity/follow">Pixelentity on Twitter</a> Get informed of new releases & updates</li>	
+					</ul>
+				</div>
+				
+				<!--getting support section-->
+				<p class="tagline"><span>STILL NEED HELP? - GETTING SUPPORT</span>If having read through all of the information in this page you are still experiencing problems, feel free to contact us. We provide free support* to our buyers via our support forums <i>(See link on right)</i>. Head on over there, read the FAQs, register <i>(using your purchase code)</i> and post your question in the appropriate forum.<br/><br/> *<b>Please note that support requests will not be answered if they relate to information available on this page.</b><br/><br/>Best regards, The Pixelentity Team</p>
+				
+			</div>
+			
+			<!--copyright details-->
+			<p class="copyright">Copyright &copy 2011+ Pixelentity. All rights reserved.</p>
+			
+		</div>
+		<!--end footer section-->
+		
+    </body>
+</html>

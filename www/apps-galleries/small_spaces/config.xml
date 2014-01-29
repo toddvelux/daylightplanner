@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backgroundColor="rgba(0,0,0,1)"
+	captionPosition="NONE"
+	showAutoPlayButton="true"
+	buttonBarPosition="TOP"
+	galleryTitlePosition="TOP"
+	topAreaHeight="45"
+	showOpenButton="false"
+	buttonBarBackColor="rgba(0,0,0,0)"
+
+>
+  <image imageURL="images/Small_spaces_01.jpg"
+	thumbURL="thumbs/Small_spaces_01.jpg"
+	linkURL="images/Small_spaces_01.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_01.jpg">
+    <title><![CDATA[Small_spaces_01]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_02.jpg"
+	thumbURL="thumbs/Small_spaces_02.jpg"
+	linkURL="images/Small_spaces_02.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_02.jpg">
+    <title><![CDATA[Small_spaces_02]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_03.jpg"
+	thumbURL="thumbs/Small_spaces_03.jpg"
+	linkURL="images/Small_spaces_03.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_03.jpg">
+    <title><![CDATA[Small_spaces_03]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_04.jpg"
+	thumbURL="thumbs/Small_spaces_04.jpg"
+	linkURL="images/Small_spaces_04.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_04.jpg">
+    <title><![CDATA[Small_spaces_04]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_05.jpg"
+	thumbURL="thumbs/Small_spaces_05.jpg"
+	linkURL="images/Small_spaces_05.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_05.jpg">
+    <title><![CDATA[Small_spaces_05]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_06.jpg"
+	thumbURL="thumbs/Small_spaces_06.jpg"
+	linkURL="images/Small_spaces_06.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_06.jpg">
+    <title><![CDATA[Small_spaces_06]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_07.jpg"
+	thumbURL="thumbs/Small_spaces_07.jpg"
+	linkURL="images/Small_spaces_07.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_07.jpg">
+    <title><![CDATA[Small_spaces_07]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_08.jpg"
+	thumbURL="thumbs/Small_spaces_08.jpg"
+	linkURL="images/Small_spaces_08.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_08.jpg">
+    <title><![CDATA[Small_spaces_08]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_09.jpg"
+	thumbURL="thumbs/Small_spaces_09.jpg"
+	linkURL="images/Small_spaces_09.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_09.jpg">
+    <title><![CDATA[Small_spaces_09]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_10.jpg"
+	thumbURL="thumbs/Small_spaces_10.jpg"
+	linkURL="images/Small_spaces_10.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_10.jpg">
+    <title><![CDATA[Small_spaces_10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_11.jpg"
+	thumbURL="thumbs/Small_spaces_11.jpg"
+	linkURL="images/Small_spaces_11.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_11.jpg">
+    <title><![CDATA[Small_spaces_11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_12.jpg"
+	thumbURL="thumbs/Small_spaces_12.jpg"
+	linkURL="images/Small_spaces_12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_12.jpg">
+    <title><![CDATA[Small_spaces_12]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_13.jpg"
+	thumbURL="thumbs/Small_spaces_13.jpg"
+	linkURL="images/Small_spaces_13.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_13.jpg">
+    <title><![CDATA[Small_spaces_13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_14.jpg"
+	thumbURL="thumbs/Small_spaces_14.jpg"
+	linkURL="images/Small_spaces_14.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_14.jpg">
+    <title><![CDATA[Small_spaces_14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_15.jpg"
+	thumbURL="thumbs/Small_spaces_15.jpg"
+	linkURL="images/Small_spaces_15.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_15.jpg">
+    <title><![CDATA[Small_spaces_15]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_16.jpg"
+	thumbURL="thumbs/Small_spaces_16.jpg"
+	linkURL="images/Small_spaces_16.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_16.jpg">
+    <title><![CDATA[Small_spaces_16]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_17.jpg"
+	thumbURL="thumbs/Small_spaces_17.jpg"
+	linkURL="images/Small_spaces_17.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_17.jpg">
+    <title><![CDATA[Small_spaces_17]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_18.jpg"
+	thumbURL="thumbs/Small_spaces_18.jpg"
+	linkURL="images/Small_spaces_18.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_18.jpg">
+    <title><![CDATA[Small_spaces_18]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_19.jpg"
+	thumbURL="thumbs/Small_spaces_19.jpg"
+	linkURL="images/Small_spaces_19.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_19.jpg">
+    <title><![CDATA[Small_spaces_19]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_20.jpg"
+	thumbURL="thumbs/Small_spaces_20.jpg"
+	linkURL="images/Small_spaces_20.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_20.jpg">
+    <title><![CDATA[Small_spaces_20]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_21.jpg"
+	thumbURL="thumbs/Small_spaces_21.jpg"
+	linkURL="images/Small_spaces_21.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_21.jpg">
+    <title><![CDATA[Small_spaces_21]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_22.jpg"
+	thumbURL="thumbs/Small_spaces_22.jpg"
+	linkURL="images/Small_spaces_22.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_22.jpg">
+    <title><![CDATA[Small_spaces_22]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_23.jpg"
+	thumbURL="thumbs/Small_spaces_23.jpg"
+	linkURL="images/Small_spaces_23.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_23.jpg">
+    <title><![CDATA[Small_spaces_23]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_24.jpg"
+	thumbURL="thumbs/Small_spaces_24.jpg"
+	linkURL="images/Small_spaces_24.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_24.jpg">
+    <title><![CDATA[Small_spaces_24]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_25.jpg"
+	thumbURL="thumbs/Small_spaces_25.jpg"
+	linkURL="images/Small_spaces_25.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_25.jpg">
+    <title><![CDATA[Small_spaces_25]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_26.jpg"
+	thumbURL="thumbs/Small_spaces_26.jpg"
+	linkURL="images/Small_spaces_26.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_26.jpg">
+    <title><![CDATA[Small_spaces_26]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_27.jpg"
+	thumbURL="thumbs/Small_spaces_27.jpg"
+	linkURL="images/Small_spaces_27.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_27.jpg">
+    <title><![CDATA[Small_spaces_27]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_28.jpg"
+	thumbURL="thumbs/Small_spaces_28.jpg"
+	linkURL="images/Small_spaces_28.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_28.jpg">
+    <title><![CDATA[Small_spaces_28]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_29.jpg"
+	thumbURL="thumbs/Small_spaces_29.jpg"
+	linkURL="images/Small_spaces_29.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_29.jpg">
+    <title><![CDATA[Small_spaces_29]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Small_spaces_30.jpg"
+	thumbURL="thumbs/Small_spaces_30.jpg"
+	linkURL="images/Small_spaces_30.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/tbeasley/Desktop/gallery/app/Small_spaces/Small_spaces_30.jpg">
+    <title><![CDATA[Small_spaces_30]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
